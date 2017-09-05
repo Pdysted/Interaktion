@@ -1,0 +1,41 @@
+.green_button {
+  background-color: $logo-green;
+  color: white;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 4vw;
+  padding-right: 10vw;
+}
+
+#bitt {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  //@extend ion-icon;
+  background: none;
+}
+
+ion-icon {
+  //Ion icons are font icons hence the sizing is done using the font-size property
+  font-size: xx-large;
+  min-width: 19vw;
+}
+
+.footer_button_text {
+  font-size: small;
+  font-weight: bold;
+}
+
+#back_button_icon {
+  //Horizontally flips the icon
+  -webkit-transform: scale(-1, 1);
+  div {
+  -webkit-transform: scale(-1, 1);
+  }
+}
+
+#active {
+  color: $logo-blue;
+}

@@ -1,0 +1,12 @@
+ion-scroll[scrollX] {
+  white-space: nowrap;
+  height:32vh;
+  margin-top: 20vh;
+  .scroll-item {
+    display: inline-block;
+    width: 30vw;
+    height: 30vh;
+    margin-left: 1vw;
+    background-color: blue;
+  }
+}

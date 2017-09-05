@@ -1,0 +1,17 @@
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.menu_button {
+  background-color: $logo-green;
+  color: white;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 10vw;
+  margin-top: 1vh;
+  width: 50vw;
+}

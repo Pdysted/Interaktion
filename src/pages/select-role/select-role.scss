@@ -1,0 +1,28 @@
+#bitt {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  //@extend ion-icon;
+  background: none;
+}
+
+ion-icon {
+  //Ion icons are font icons hence the sizing is done using the font-size property
+  font-size: xx-large;
+  min-width: 19vw;
+}
+
+.footer_button_text {
+  font-size: small;
+  font-weight: bold;
+}
+
+#back_button_icon {
+  //Horizontally flips the icon
+  -webkit-transform: scale(-1, 1);
+  div {
+  -webkit-transform: scale(-1, 1);
+  }
+}
