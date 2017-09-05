@@ -7,6 +7,8 @@ ion-scroll[scrollX] {
     width: 30vw;
     height: 30vh;
     margin-left: 1vw;
-    background-color: blue;
+    background-image: url("/assets/bagside.png");
+    background-size: 30vw 30vh;		
+    /*background-color: blue;*/
   }
 }
