@@ -28,7 +28,7 @@
   Please, explore, learn and enjoy!
   <br><br>
 
-  <button ion-button round class="green_button">Select a Role</button> <button ion-button round class="green_button">Pick a Card</button>
+  <button ion-button round class="green_button" (click)="selectRolePressed()">Select a Role</button> <button ion-button round class="green_button" (click)="pickACardPressed()">Pick a Card</button>
 </ion-content>
 
 <ion-footer>
@@ -37,7 +37,7 @@
     <button><ion-icon id="active" name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
     <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>
     <button><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
-    <button><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
   </div>
   </ion-toolbar>
 </ion-footer>

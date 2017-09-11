@@ -1,15 +1,26 @@
 ion-scroll[scrollX] {
   white-space: nowrap;
-  height:32vh;
+  height:40vh;
   margin-top: 20vh;
   .scroll-item {
+    .card-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2vh;
+    }
+    //turn image instead of background
     border: solid 2px black;
     display: inline-block;
+    .card-image {
+      content: url("../assets/bagside.png");
+      //background-image: url("../assets/bagside.png");
+      background-size: 30vw 30vh;
+    }
     width: 30vw;
-    height: 30vh;
+    height: 40vh;
     margin-left: 1vw;
-    background-image: url("../assets/bagside.png");
-    background-size: 30vw 30vh;
+
     //background-color: blue;
   }
 }
