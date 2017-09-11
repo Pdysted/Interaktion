@@ -1,10 +1,13 @@
 .aligner {
   display: flex;
-  align-items: center;
+  //align-items: center;
   justify-content: center;
 }
 
-
+#list {
+  //margin-left: 20vw;
+  margin-top: 10vh;
+}
 
 .menu_button {
   background-color: $logo-green;

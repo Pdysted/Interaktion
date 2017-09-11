@@ -3,12 +3,13 @@ ion-scroll[scrollX] {
   height:32vh;
   margin-top: 20vh;
   .scroll-item {
+    border: solid 2px black;
     display: inline-block;
     width: 30vw;
     height: 30vh;
     margin-left: 1vw;
-    background-image: url("/assets/bagside.png");
-    background-size: 30vw 30vh;		
-    /*background-color: blue;*/
+    background-image: url("../assets/bagside.png");
+    background-size: 30vw 30vh;
+    //background-color: blue;
   }
 }

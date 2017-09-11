@@ -23,12 +23,15 @@ $logo-green: #435c46;
 #header_container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  //align-items: baseline;
   img {
     //width: 50px;
     //height: 30px;
-    width: 13vw;
+    width: 16vw;
     height: 8vw;
+  }
+  ion-title {
+    margin-left: 3vw;
   }
   button {
     ion-icon {
