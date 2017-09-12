@@ -18,14 +18,16 @@
     menu side and the footer bar? Seems awfully redundant.-->
     <div></div>
     <ion-list id="list" >
-      <li><button ion-button round class="menu_button" name="select_role" (click)="openPage($event)">Select a Role</button></li>
-      <li><button ion-button round class="menu_button" name="pick_a_card" (click)="openPage($event)">Pick a Card</button></li>
-      <li><button ion-button round class="menu_button" name="the_4_fold_path" (click)="openPage($event)">The 4 Fold Path</button></li>
-      <li><button ion-button round class="menu_button" name="how_to_use" (click)="openPage($event)">How to Use</button></li>
-      <li><button ion-button round class="menu_button" name="buy_more_questions" (click)="openPage($event)">Buy more questions</button></li>
-      <li><button ion-button round class="menu_button" name="restore_purchase" (click)="openPage($event)">Restore purchase</button></li>
-      <li><button ion-button round class="menu_button" name="interaktion" (click)="openPage($event)">Interaktion</button></li>
-      <li><button ion-button round class="menu_button" name="contact" (click)="openPage($event)">Contact</button></li>
+      <li><button ion-button class="menu_button_green" name="select_role" (click)="openPage($event)">Select a Role</button></li>
+      <li><button ion-button class="menu_button_green" name="pick_a_card" (click)="openPage($event)">Pick a Card</button></li>
+      <br><br>
+      <li><button ion-button class="menu_button_blue" name="the_4_fold_path" (click)="openPage($event)">The 4 Fold Path</button></li>
+      <li><button ion-button class="menu_button_blue" name="how_to_use" (click)="openPage($event)">How to Use</button></li>
+      <li><button ion-button class="menu_button_blue" name="buy_more_questions" (click)="openPage($event)">Buy more questions</button></li>
+      <li><button ion-button class="menu_button_blue" name="restore_purchase" (click)="openPage($event)">Restore purchase</button></li>
+      <br>
+      <li><button ion-button class="menu_button_purple" name="interaktion" (click)="openPage($event)">Interaktion</button></li>
+      <li><button ion-button class="menu_button_purple" name="contact" (click)="openPage($event)">Contact</button></li>
     </ion-list>
   </div>
 

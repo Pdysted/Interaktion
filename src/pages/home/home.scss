@@ -9,7 +9,7 @@
   margin-top: 10vh;
 }
 
-.menu_button {
+.menu_button_green {
   background-color: $logo-green;
   color: white;
   padding-top: 1vh;
@@ -17,4 +17,30 @@
   padding-right: 10vw;
   margin-top: 1vh;
   width: 50vw;
+  //Should be using a more responsive sizing unit
+  border-radius: 12px;
+}
+
+.menu_button_blue {
+  background-color: $light-blue;
+  color: white;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 10vw;
+  margin-top: 1vh;
+  width: 50vw;
+  //Should be using a more responsive sizing unit
+  border-radius: 12px;
+}
+
+.menu_button_purple {
+  background-color: $dark-indigo;
+  color: white;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 10vw;
+  margin-top: 1vh;
+  width: 50vw;
+  //Should be using a more responsive sizing unit
+  border-radius: 12px;
 }
