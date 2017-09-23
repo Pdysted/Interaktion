@@ -11,5 +11,16 @@
 </ion-header>
 
 <ion-content padding>
-Buy more Questions
+<ion-title text-center>Buy more Questions</ion-title>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <div id="footer_container">
+    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+    <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>
+    <button><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
+    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+  </div>
+  </ion-toolbar>
+</ion-footer>

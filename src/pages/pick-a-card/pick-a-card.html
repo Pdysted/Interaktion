@@ -26,3 +26,14 @@
   <div id="pointer"></div>
 </div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <div id="footer_container">
+    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+    <button><ion-icon name="shuffle"><br><div class="footer_button_text">Shuffle Cards</div></ion-icon></button>
+    <button><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
+    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+  </div>
+  </ion-toolbar>
+</ion-footer>

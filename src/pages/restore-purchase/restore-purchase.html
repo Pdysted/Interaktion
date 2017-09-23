@@ -11,5 +11,14 @@
 </ion-header>
 
 <ion-content padding>
-  Restore purchase
+  <ion-title text-center>Restore purchase</ion-title>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <div id="footer_container">
+    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>    
+  </div>
+  </ion-toolbar>
+</ion-footer>

@@ -23,7 +23,7 @@ ion-scroll[scrollX] {
       padding-top: 2vh;
     }
     //turn image instead of background
-    border: solid 3px $blue-grey;
+    border: solid 3px $border-orange;
     border-radius: 20px;
     display: inline-block;
     .card-image {
@@ -39,7 +39,12 @@ ion-scroll[scrollX] {
 
 #pointer {
   margin-left: 45%;
-  background-color: blue;
+  background-color: #8492A6;
   width:4vw;
   height:4vh;
+}
+
+#footer_container {
+  display: flex;
+  justify-content: space-around;
 }

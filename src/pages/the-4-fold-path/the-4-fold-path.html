@@ -11,6 +11,15 @@
 </ion-header>
 
 <ion-content padding>
-  The 4 fold path
-
+  <ion-title text-center>The 4 fold path</ion-title>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <div id="footer_container">
+    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+    <button><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
+    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+  </div>
+  </ion-toolbar>
+</ion-footer>

@@ -1,7 +1,7 @@
 
 #contact_container {
-  //Replace it later
-  color:$logo-gold;
+  color:$border-orange;
+  font-size: large;
   display: flex;
   justify-content: space-between;
 
@@ -10,3 +10,12 @@
 /*#contact_info {
   //margin-left: 33vw;
 }*/
+
+#footer_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+ion-title{
+  font-size:small;
+}

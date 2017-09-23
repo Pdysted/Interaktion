@@ -11,12 +11,13 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-title>Contact us</ion-title>
-  <br>
+  <ion-title text-center>Contact us</ion-title>
+  <br><br>
   Are you curious on more or do you face challenges at work?
   <br><br>
   We are here to help you and your organization going from strategy to great and sustainable solutions with great results.
-  The way we do it, is through hosting conversations that matters to all.
+  <br>
+  The way we do it, is through hosting conversations that matter for everyone.
   <br><br>
   Please do not hesitate to contact us. We look forward to hearing from you.
   <br><br><br>
@@ -36,7 +37,9 @@
 
 <ion-footer>
   <ion-toolbar>
-    <button>How to use</button>
-    <button>Back</button>
+    <div id="footer_container">
+    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>    
+  </div>
   </ion-toolbar>
 </ion-footer>

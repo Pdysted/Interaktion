@@ -44,3 +44,8 @@
   //Should be using a more responsive sizing unit
   border-radius: 12px;
 }
+
+#footer_container {
+  display: flex;
+  justify-content: space-around;
+}

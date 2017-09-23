@@ -60,5 +60,42 @@ openPage(event) {
   }
   }
 
-  //this.navCtrl.setRoot(page.component);
+  //Temporary solution to the navigation issue, should be replaced with a controller
+  //Instead of this mess of redundancy, for shame  this.navCtrl.setRoot(page.component);
+  //An advantage to this could be the reusability in the footer menu, I guess
+  openSelectRole() {
+    this.navCtrl.setRoot(SelectRole);
+  }
+
+  openPickACard() {
+    this.navCtrl.setRoot(PickACard);
+  }
+
+  openThe4FoldPath() {
+    this.navCtrl.setRoot(The4FoldPath);
+  }
+
+  openHowToUse() {
+    this.navCtrl.setRoot(HowToUse);
+  }
+
+  openBuyMoreQuestions() {
+    this.navCtrl.setRoot(BuyMoreQuestions);    
+  }
+
+  openRestorePurchase() {
+    this.navCtrl.setRoot(RestorePurchase);    
+  }
+
+  openInteraktion() {
+    this.navCtrl.setRoot(Interaktion);
+  }
+
+  openContact() {
+    this.navCtrl.setRoot(Contact);    
+  }
+
+
+
+ 
 }
