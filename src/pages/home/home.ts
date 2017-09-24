@@ -8,6 +8,9 @@ import { BuyMoreQuestions } from '../buy-more-questions/buy-more-questions';
 import { RestorePurchase } from '../restore-purchase/restore-purchase';
 import { Interaktion } from '../interaktion/interaktion';
 import { Contact } from '../contact/contact';
+
+import { AboutTheRoles } from '../about-the-roles/about-the-roles';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -30,7 +33,7 @@ export class HomePage {
   ];
 }
 
-openPage(event) {
+/*openPage(event) {
   var buttonName = event.target.name;
   switch (buttonName) {
     case "select_role":
@@ -58,7 +61,7 @@ openPage(event) {
     this.navCtrl.setRoot(Contact);
     break;
   }
-  }
+}*/
 
   //Temporary solution to the navigation issue, should be replaced with a controller
   //Instead of this mess of redundancy, for shame  this.navCtrl.setRoot(page.component);
@@ -95,7 +98,8 @@ openPage(event) {
     this.navCtrl.setRoot(Contact);    
   }
 
-
-
+  openAboutTheRoles() {
+    this.navCtrl.setRoot(AboutTheRoles);
+  }
  
 }

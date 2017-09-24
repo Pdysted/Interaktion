@@ -13,6 +13,8 @@ import { RestorePurchase } from '../pages/restore-purchase/restore-purchase';
 import { Interaktion } from '../pages/interaktion/interaktion';
 import { Contact } from '../pages/contact/contact';
 
+
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -58,5 +60,9 @@ export class MyApp {
     this.menu.close();
     // navigate to the new page if it is not the current page
     this.nav.setRoot(page.component);
+  }
+
+    openAb() {
+      this.nav.setRoot(Contact);
   }
 }

@@ -15,6 +15,9 @@ import { RestorePurchase } from '../pages/restore-purchase/restore-purchase';
 import { Interaktion } from '../pages/interaktion/interaktion';
 import { Contact } from '../pages/contact/contact';
 
+import { AboutTheRoles } from '../pages/about-the-roles/about-the-roles';
+
+
 
 @NgModule({
   declarations: [
@@ -27,7 +30,8 @@ import { Contact } from '../pages/contact/contact';
     BuyMoreQuestions,
     RestorePurchase,
     Interaktion,
-    Contact
+    Contact,
+    AboutTheRoles
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,8 @@ import { Contact } from '../pages/contact/contact';
     BuyMoreQuestions,
     RestorePurchase,
     Interaktion,
-    Contact
+    Contact,
+    AboutTheRoles
   ],
   providers: [
     StatusBar,
