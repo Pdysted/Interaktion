@@ -17,6 +17,9 @@ import { Contact } from '../pages/contact/contact';
 
 import { AboutTheRoles } from '../pages/about-the-roles/about-the-roles';
 
+import {HttpModule} from '@angular/http';
+
+
 
 
 @NgModule({
@@ -35,6 +38,7 @@ import { AboutTheRoles } from '../pages/about-the-roles/about-the-roles';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

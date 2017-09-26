@@ -13,18 +13,15 @@
 <ion-content class="pick_a_card_style">
   <div id="aligner">
   <h3>Pick a card</h3>
+</div>
   <ion-scroll scrollX="true">
-  <div class="scroll-item">
-  <div class="card-title">The 4 Fold Practice</div>
-  <img class="card-image" src="../assets/bagside.png">
-  </div>
-  <div class="scroll-item">
+  <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">
   <div class="card-title">The 4 Fold Practice</div>
   <img class="card-image" src="../assets/bagside.png">
   </div>
   </ion-scroll>
   <div id="pointer"></div>
-</div>
+
 </ion-content>
 
 <ion-footer>

@@ -1,10 +1,24 @@
+#center_text {
+  color: $border-orange;
+  font-size: large;
+}
+
+#aligner {
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+}
+
 #contact_button {
-  background-color: $logo-green;
+  background-color: $dark-indigo;
   color: white;
   padding-top: 1vh;
   padding-bottom: 1vh;
-  padding-left: 4vw;
-  padding-right: 10vw;
+  padding-right: 25vw;
+  margin-top: 1vh;
+  width: 40vw;
+  //Should be using a more responsive sizing unit
+  border-radius: 12px;
 }
 
 #footer_container {

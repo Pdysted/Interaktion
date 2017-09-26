@@ -1,3 +1,20 @@
+#aligner {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.purchase_button {
+  background-color: $light-blue;
+  color: white;
+  padding-right: 2vw;
+  margin-top: 1vh;
+  width: 64vw;
+  //Should be using a more responsive sizing unit
+  border-radius: 12px;
+}
+
 #footer_container {
     display: flex;
     justify-content: space-around;
