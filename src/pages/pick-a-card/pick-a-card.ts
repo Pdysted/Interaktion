@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import {Http} from '@angular/http';
 import { Platform } from 'ionic-angular';
 import 'rxjs/add/operator/map';
 
+import { Card } from '../card/card';
 import { HomePage } from '../home/home';
 import { HowToUse } from '../how-to-use/how-to-use';
 
@@ -13,18 +14,17 @@ import { HowToUse } from '../how-to-use/how-to-use';
 })
 export class PickACard {
   cards: Array<{role: string, question:string}>;  
-  constructor(public navCtrl: NavController, private http: Http, private platform: Platform) {
-    //this.cards = [{role: 'be_present', question: 'What am I grateful for?'}];
+  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http, private platform: Platform) {
     //You need to subscribe to the observable and pass a callback that processes emitted values
     //this.getIt().subscribe(val => console.log(val[0].role));
     this.cards = [];
-    this.getIt().subscribe(val =>
+    this.getCards().subscribe(val =>
       this.populateCards(val));
   }
 
-  public getIt() {
+  public getCards() {
         var url = '/assets/data/questions.json'; 
-    
+
         if (this.platform.is('cordova') && this.platform.is('android')) {
             url = "/android_asset/www/" + url;
         }
@@ -43,6 +43,10 @@ export class PickACard {
 
   cardPressed(card) {
     console.log(card.role + "\n" + card.question);
+    this.navCtrl.push(Card, {
+      card: card
+    }
+    );
   }
 
   howToUsePressed () {

@@ -15,6 +15,7 @@ import { Contact } from '../pages/contact/contact';
 
 
 
+
 @Component({
   templateUrl: 'app.html'
 })

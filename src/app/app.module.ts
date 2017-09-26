@@ -16,6 +16,7 @@ import { Interaktion } from '../pages/interaktion/interaktion';
 import { Contact } from '../pages/contact/contact';
 
 import { AboutTheRoles } from '../pages/about-the-roles/about-the-roles';
+import { Card } from '../pages/card/card';
 
 import {HttpModule} from '@angular/http';
 
@@ -34,7 +35,8 @@ import {HttpModule} from '@angular/http';
     RestorePurchase,
     Interaktion,
     Contact,
-    AboutTheRoles
+    AboutTheRoles,
+    Card
   ],
   imports: [
     BrowserModule,
@@ -53,7 +55,8 @@ import {HttpModule} from '@angular/http';
     RestorePurchase,
     Interaktion,
     Contact,
-    AboutTheRoles
+    AboutTheRoles,
+    Card
   ],
   providers: [
     StatusBar,
