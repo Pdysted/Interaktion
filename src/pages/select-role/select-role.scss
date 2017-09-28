@@ -2,11 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  .role_image {
+    border-color: $light_blue;
+  }
 }
 
 #middle_row {
   display: flex;
   justify-content: space-between;  
+  #left_role {
+    border-color: $blue_grey;
+  }
+
+  #right_role {
+    border-color: $dark_green;
+  }
 }
 
 .middle_container {
@@ -19,12 +29,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  .role_image {
+    border-color: $dark_indigo;
+  }
 }
 
 .role_image {
   width: 33vw;
   height:20vh;
+  padding: 2px;
+  border: 4px solid $dark-indigo;
+  border-radius: 50%;
 }
+
+
+
+
 
 
 
