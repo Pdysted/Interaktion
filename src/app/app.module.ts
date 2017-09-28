@@ -19,6 +19,7 @@ import { AboutTheRoles } from '../pages/about-the-roles/about-the-roles';
 import { Card } from '../pages/card/card';
 
 import {HttpModule} from '@angular/http';
+import { EmailComposer } from '@ionic-native/email-composer';
 
 
 
@@ -61,7 +62,8 @@ import {HttpModule} from '@angular/http';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    EmailComposer
   ]
 })
 export class AppModule {}

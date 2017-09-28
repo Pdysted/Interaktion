@@ -17,8 +17,12 @@
   <ion-scroll scrollX="true">
   <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">
   <div class="card-title">The 4 Fold Practice</div>
-  <img class="card-image" src="../assets/bagside.png">
+  <img class="card-image" src="assets/bagside.png">
   </div>
+  <div class="scroll-item" (click)="cardPressed(card)">
+      <div class="card-title">The 4 Fold Practice</div>
+      <img class="card-image" src="assets/bagside.png">
+      </div>
   </ion-scroll>
   <div id="pointer"></div>
 

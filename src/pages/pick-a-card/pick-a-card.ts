@@ -23,11 +23,11 @@ export class PickACard {
   }
 
   public getCards() {
-        var url = '/assets/data/questions.json'; 
+        var url = 'assets/data/questions.json'; 
 
-        if (this.platform.is('cordova') && this.platform.is('android')) {
-            url = "/android_asset/www/" + url;
-        }
+        //if (this.platform.is('cordova') && this.platform.is('android')) {
+        //    url = "/android_asset/www/" + url;
+        //}
     
         return this.http.get(url)
             .map((response) => {
