@@ -20,15 +20,22 @@
   and reflect upon questions in four group or roles: Host Yourself,
   Participate, Host Others, and Co-create.
   <br><br>
-  Fire ikoner vil være her:::
+  <div id="roles_container">
+    <img id="hostyourself" src="assets/roles-small/hostyourself_small.png">
+    <img id="participate" src="assets/roles-small/participate_small.png">
+    <img id="hostothers" src="assets/roles-small/hostothers_small.png">
+    <img id="cocreate" src="assets/roles-small/cocreate_small.png">
+  </div>
   <br><br>
   You can explore one role at a time or you can choose a card to answer a question
   you can hold right there, trusting the serendipity.
   <br><br>
   Please, explore, learn and enjoy!
   <br><br>
-
-  <button ion-button round class="green_button" (click)="selectRolePressed()">Select a Role</button> <button ion-button round class="green_button" (click)="pickACardPressed()">Pick a Card</button>
+  <div id="button_container">
+  <button ion-button class="green_button" (click)="selectRolePressed()">Select a Role</button> 
+  <button ion-button class="green_button" (click)="pickACardPressed()">Pick a Card</button>
+  </div>
 </ion-content>
 
 <ion-footer>

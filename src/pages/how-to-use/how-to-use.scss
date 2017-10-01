@@ -1,6 +1,40 @@
+#roles_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  img {
+    width: 16vw;
+    height: 10vh;
+    border: solid 2px;
+    border-radius: 50%;
+  }
+
+  #hostyourself {
+    border-color: $dark_indigo;
+  }
+
+  #participate {
+    border-color: $dark_green;
+  }
+
+  #hostothers {
+    border-color: $light-blue;
+  }
+
+  #cocreate {
+    border-color: $blue_grey;    
+  }
+}
+
+#button_container {
+  display: flex;
+  justify-content: center;
+}
+
 .green_button {
   background-color: $logo-green;
   color: white;
+  min-width: 40vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
   padding-left: 4vw;
