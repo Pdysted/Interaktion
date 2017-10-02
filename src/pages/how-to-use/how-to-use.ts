@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { HomePage } from '../home/home';
+import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 import { SelectRole } from '../select-role/select-role';
 import { PickACard } from '../pick-a-card/pick-a-card';
 
@@ -13,6 +14,10 @@ export class HowToUse {
 
   constructor(public navCtrl: NavController) {
 
+  }
+
+  theRolesPressed() {
+    this.navCtrl.setRoot(AboutTheRoles);
   }
 
   selectRolePressed() {
