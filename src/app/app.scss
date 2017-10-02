@@ -62,3 +62,28 @@ $border-orange: #E67A09;
 .active_footer {
   color: $border-orange;
 }
+
+
+//Small role image with borders
+.role_image_small{
+  width: 16vw;
+  height: 10vh;
+  border: solid 2px;
+  border-radius: 50%;
+}
+ 
+#hostyourself {
+  border-color: $dark_indigo;
+}
+
+#participate {
+  border-color: $dark_green;
+}
+
+#hostothers {
+  border-color: $light-blue;
+}
+
+#cocreate {
+  border-color: $blue_grey;    
+}
