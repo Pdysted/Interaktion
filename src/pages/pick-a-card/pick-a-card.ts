@@ -41,6 +41,19 @@ export class PickACard {
     }
   }  
 
+  /**
+ * Randomize array element order in-place.
+ * Using Durstenfeld shuffle algorithm.
+ */
+public shuffleCards() {
+  for (var i = this.cards.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = this.cards[i];
+      this.cards[i] = this.cards[j];
+      this.cards[j] = temp;
+  }
+}
+
   cardPressed(card) {
     console.log(card.role + "\n" + card.question);
     this.navCtrl.push(Card, {
