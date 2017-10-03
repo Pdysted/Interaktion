@@ -7,6 +7,7 @@ import 'rxjs/add/operator/map';
 import { Card } from '../card/card';
 import { HomePage } from '../home/home';
 import { HowToUse } from '../how-to-use/how-to-use';
+import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 
 @Component({
   selector: 'page-pick-a-card',
@@ -52,6 +53,7 @@ public shuffleCards() {
       this.cards[i] = this.cards[j];
       this.cards[j] = temp;
   }
+  console.log('done');
 }
 
   cardPressed(card) {
@@ -64,6 +66,10 @@ public shuffleCards() {
 
   howToUsePressed () {
     this.navCtrl.setRoot(HowToUse);
+  }
+
+  openAboutTheRoles() {
+    this.navCtrl.setRoot(AboutTheRoles);
   }
 
   backPressed() {
