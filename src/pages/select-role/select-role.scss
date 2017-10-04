@@ -1,7 +1,8 @@
 #top_row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   .image_padding {
     border-color: $light_blue;
   }
@@ -26,11 +27,36 @@
 
 #bottom_row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   .image_padding {
     border-color: $dark_indigo;
   }
+}
+
+#upper_left_arrow {
+  width: 7.5vw;
+  height: 4vh;
+  transform: rotate(45deg);
+}
+
+#upper_right_arrow {
+  width: 7.5vw;
+  height: 4vh;
+  transform: rotate(125deg);
+}
+
+#lower_left_arrow {
+  width: 7.5vw;
+  height: 4vh;
+  transform: rotate(-45deg);
+}
+
+#lower_right_arrow {
+  width: 7.5vw;
+  height: 4vh;
+  transform: rotate(-125deg);
 }
 
 .image_padding {
