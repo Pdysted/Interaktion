@@ -1,0 +1,89 @@
+#card_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#be_present {
+    background-color: white;
+  .card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+  }
+  border: solid 4px $dark-indigo;
+  border-radius: 20px;
+  display: inline-block;
+  .card-image {
+    //content: url("../assets/bagside.png");
+    //background-image: url("../assets/bagside.png");
+    background-size: 30vw 30vh;
+  }
+  width: 45vw;
+  height: 40vh;
+  margin-left: 1vw;
+}
+
+#engage {
+  background-color: white;
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+}
+border: solid 4px $dark-green;
+border-radius: 20px;
+display: inline-block;
+.card-image {
+  //content: url("../assets/bagside.png");
+  //background-image: url("../assets/bagside.png");
+  background-size: 30vw 30vh;
+}
+width: 45vw;
+height: 40vh;
+margin-left: 1vw;
+}
+
+#host_others {
+  background-color: white;
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+}
+border: solid 4px $light-blue;
+border-radius: 20px;
+display: inline-block;
+.card-image {
+  //content: url("../assets/bagside.png");
+  //background-image: url("../assets/bagside.png");
+  background-size: 30vw 30vh;
+}
+width: 45vw;
+height: 40vh;
+margin-left: 1vw;
+}
+
+#co-create {
+  background-color: white;
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+}
+border: solid 4px $blue-grey;
+border-radius: 20px;
+display: inline-block;
+.card-image {
+  //content: url("../assets/bagside.png");
+  //background-image: url("../assets/bagside.png");
+  background-size: 30vw 30vh;
+}
+width: 45vw;
+height: 40vh;
+margin-left: 1vw;
+}

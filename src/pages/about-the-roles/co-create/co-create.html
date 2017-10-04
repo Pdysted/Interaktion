@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar>
+      <div id="header_container">
+      <img src="assets/logo.png">
+      <ion-title>The 4 Fold Practise</ion-title>
+      <button ion-button menuToggle>
+       <ion-icon name="menu"></ion-icon>
+     </button>
+    </div>
+    </ion-navbar>
+  </ion-header>
+ 
+ <ion-content padding>
+      <ion-title text-center>About the Roles</ion-title>
+      <br><br>
+        <div class="role_button">
+          <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">
+          <div><h6>Co-Create</h6>
+            Is about being part of a community hosting itself:<br><br>
+            <ul class="role_bullet_list"> 
+                <li>To be a commnity of practise</li>
+                <li>To be in learning together</li>
+                <li>To continuously practice to build relationship and skill</li>
+                <br><br>
+                <li>How to host the whole</li>
+                <li>How to keep the overview, focus and attention on the whole</li>
+                <li>How to give space for all to learn something about themselves, each other, to learn and create the best solutions together and to keep both the hight and persistence until you have fullfilled the commen good</li>
+            </ul>
+          </div>
+        </div>
+</ion-content>
+      
+      <ion-footer>
+        <ion-toolbar>
+          <div id="footer_container">
+          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>
+          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
+          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+        </div>
+        </ion-toolbar>
+      </ion-footer>

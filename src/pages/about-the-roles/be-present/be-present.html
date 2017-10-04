@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-navbar>
+      <div id="header_container">
+      <img src="assets/logo.png">
+      <ion-title>The 4 Fold Practise</ion-title>
+      <button ion-button menuToggle>
+       <ion-icon name="menu"></ion-icon>
+     </button>
+    </div>
+    </ion-navbar>
+  </ion-header>
+ 
+ <ion-content padding>
+      <ion-title text-center>About the Roles</ion-title>
+      <br><br>
+        <div class="role_button">
+          <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">
+          <div><h6>BE PRESENT</h6>
+          Is about hosting yourself and presensing.<br><br>
+          <ul class="role_bullet_list">
+              <li>Being present with yourself to practice and discipline being you</li>
+              <li>To allow you to go into difficult conversations in a ground way</li>
+              <li>To be a little more consciousness every day</li>
+              <br><br>
+              <li>How to lead yourself</li>
+              <li>How to host yourself and your balance</li>
+              <li>How to be balanced and carm - free of fear and hidden agendas</li>
+            </ul>
+        </div>
+        </div>
+        <!--This can be generalized to not use 4 different pages, but send a list as a data,
+        the breaklines might be an issue however-->
+        
+</ion-content>
+      
+      <ion-footer>
+        <ion-toolbar>
+          <div id="footer_container">
+          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>
+          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
+          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+        </div>
+        </ion-toolbar>
+      </ion-footer>

@@ -1,0 +1,49 @@
+<ion-header>
+    <ion-navbar>
+      <div id="header_container">
+      <img src="assets/logo.png">
+      <ion-title>The 4 Fold Practise</ion-title>
+      <button ion-button menuToggle>
+       <ion-icon name="menu"></ion-icon>
+     </button>
+    </div>
+    </ion-navbar>
+  </ion-header>
+ 
+ <ion-content padding>
+      <ion-title text-center>About the Roles</ion-title>
+      <br><br>
+      <div id="role_container">
+        <div class="role_button" (click)="bePresentPressed()">
+          <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">
+          <div><h6>BE PRESENT</h6>
+          Is about hosting yourself and presensing.</div>
+        </div>
+        <div class="role_button" (click)="engagePressed()">
+          <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">
+          <div><h6>ENGAGE</h6>
+          Is about participation and practice conversation.</div>
+        </div>  
+        <div class="role_button" (click)="hostOthersPressed()">
+          <img id="hostothers" class="role_image_small" src="assets/roles-small/hostothers_small.png">
+          <div><h6>HOST OTHERS</h6>
+          Is about hosting conversations.</div>
+        </div>  
+        <div class="role_button" (click)="coCreatePressed()">
+          <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">
+          <div><h6>CO-CREATE</h6>
+          Is about being a part of a community hosting itself.</div>
+        </div>      
+      </div>
+</ion-content>
+      
+      <ion-footer>
+        <ion-toolbar>
+          <div id="footer_container">
+          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>
+          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
+          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+        </div>
+        </ion-toolbar>
+      </ion-footer>

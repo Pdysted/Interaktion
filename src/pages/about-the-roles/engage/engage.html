@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar>
+      <div id="header_container">
+      <img src="assets/logo.png">
+      <ion-title>The 4 Fold Practise</ion-title>
+      <button ion-button menuToggle>
+       <ion-icon name="menu"></ion-icon>
+     </button>
+    </div>
+    </ion-navbar>
+  </ion-header>
+ 
+ <ion-content padding>
+      <ion-title text-center>About the Roles</ion-title>
+      <br><br>
+        <div class="role_button">
+          <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">
+          <div><h6>Engage</h6>
+          Is about being hosted and practice conversation:<br><br>
+          <ul class="role_bullet_list">  
+              <li>To participate as a student, as a listener</li>
+              <li>To be the ever-curious little child inside</li>
+              <li>To be open</li> 
+              <br><br>
+              <li>How to host yourself and give room for others to host you</li>
+              <li>How to participate and contribute - being open, curiuos and listening</li>
+            </ul>
+        </div>
+        </div>
+        
+</ion-content>
+      
+      <ion-footer>
+        <ion-toolbar>
+          <div id="footer_container">
+          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>
+          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
+          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+        </div>
+        </ion-toolbar>
+      </ion-footer>
