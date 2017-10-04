@@ -16,7 +16,6 @@ import { Interaktion } from '../pages/interaktion/interaktion';
 import { Contact } from '../pages/contact/contact';
 
 import { AboutTheRoles } from '../pages/about-the-roles/about-the-roles';
-import { AboutTheRolesModule } from '../pages/about-the-roles/about-the-roles.module';
 import { BePresent } from '../pages/about-the-roles/be-present/be-present';
 import { CoCreate } from '../pages/about-the-roles/co-create/co-create';
 import { Engage } from '../pages/about-the-roles/engage/engage';
@@ -54,7 +53,6 @@ import { EmailComposer } from '@ionic-native/email-composer';
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(MyApp),
-    AboutTheRolesModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
