@@ -14,14 +14,11 @@ import { BuyMoreQuestions } from '../pages/buy-more-questions/buy-more-questions
 import { RestorePurchase } from '../pages/restore-purchase/restore-purchase';
 import { Interaktion } from '../pages/interaktion/interaktion';
 import { Contact } from '../pages/contact/contact';
-
 import { AboutTheRoles } from '../pages/about-the-roles/about-the-roles';
 import { BePresent } from '../pages/about-the-roles/be-present/be-present';
 import { CoCreate } from '../pages/about-the-roles/co-create/co-create';
 import { Engage } from '../pages/about-the-roles/engage/engage';
 import { HostOthers } from '../pages/about-the-roles/host-others/host-others';
-
-
 import { Card } from '../pages/card/card';
 
 import {HttpModule} from '@angular/http';
