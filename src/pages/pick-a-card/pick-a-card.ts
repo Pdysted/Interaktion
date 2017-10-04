@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {Http} from '@angular/http';
-import { Platform } from 'ionic-angular';
+//import { Platform } from 'ionic-angular';
 import 'rxjs/add/operator/map';
 
 import { Card } from '../card/card';
@@ -15,7 +15,7 @@ import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 })
 export class PickACard {
   cards: Array<{role: string, question:string}>;  
-  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http, private platform: Platform) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http/*, private platform: Platform*/) {
     //You need to subscribe to the observable and pass a callback that processes emitted values
     //this.getIt().subscribe(val => console.log(val[0].role));
     this.cards = [];
