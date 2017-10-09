@@ -3,6 +3,10 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import { PickACard } from '../pick-a-card/pick-a-card';
 import { HowToUse } from '../how-to-use/how-to-use';
+import { AboutTheRoles } from '../about-the-roles/about-the-roles';
+
+import { EmailComposer } from '@ionic-native/email-composer';
+
 
 @Component({
   selector: 'page-card',
@@ -12,7 +16,7 @@ export class Card {
   selectedCard:any;
   imgUrl:string;
   role:string;
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private emailComposer:EmailComposer) {
     this.selectedCard = navParams.get('card');
     console.log("Card page");
     console.log(this.selectedCard.role + "\n" + this.selectedCard.question);
@@ -40,6 +44,49 @@ export class Card {
           //$blue-grey: #8a9d87;
           break;        
     }
+  }
+
+  noteToSelf() {
+    this.emailComposer.isAvailable().then((available: boolean) =>{
+      if(available) {
+        let email = {
+          to: 'max@mustermann.de',
+          cc: '',
+          bcc: ['john@doe.com', 'jane@doe.com'],
+          attachments: [
+            //'file://img/logo.png',
+            //'res://icon.png',
+            //'base64:icon.png//iVBORw0KGgoAAAANSUhEUg...',
+            //'file://README.pdf'
+          ],
+          subject: 'Test email emne',
+          body: 'Test email brødtekst',
+          isHtml: true
+        };
+        //Now we know we can send
+        this.emailComposer.open(email);
+      }
+     });
+     let email = {
+      to: 'max@mustermann.de',
+      cc: '',
+      bcc: ['john@doe.com', 'jane@doe.com'],
+      attachments: [
+        //'file://img/logo.png',
+        //'res://icon.png',
+        //'base64:icon.png//iVBORw0KGgoAAAANSUhEUg...',
+        //'file://README.pdf'
+      ],
+      subject: 'Test email emne',
+      body: 'Test email brødtekst',
+      isHtml: true
+    };
+     this.emailComposer.open(email);
+     
+  }
+
+  openAboutTheRoles() {
+    this.navCtrl.setRoot(AboutTheRoles);
   }
 
   howToUsePressed () {

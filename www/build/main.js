@@ -41,7 +41,7 @@ var The4FoldPath = (function () {
 }());
 The4FoldPath = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-the-4-fold-path',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/the-4-fold-path/the-4-fold-path.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>The 4 fold path</ion-title>\n  <br>\n  The questions and structure is developed from a practice called The 4 Fold Path.<br>\n  A practice developed by Art of Hosting practioners, and is thought of as a way to teach people to change in intelligent ways.\n  <br><br>\n  A Conscious Practice (Bold)<br>\n  Being truly present, engaging skillfully in conversations, being a good host of conversations and enganging with others in co-creation are all skills that are easily understood, \n  but takes continuous practice to hone.\n  <br><br>\n  And that is the purpose of this app: To help you maintain a conscious practice and enchance your skills. \n  <br><br>\n  Building Capacity (bold)<br>\n  As we learn to be truly present and engage in conversations that really matter, we become learners.\n  <br><br> \n  As learners many doors are open to us.\n  As we begin to host conversations and connect with others, we become a community of learners.\n  <br><br> \n  As a community we hold a bigger capacity than as individuals. In this way a community becomes \'a community that learns\', and here we enter collective intelligence.\n  <br><br>\n  We multiply our capacity and enter the field of emergence - the center of our true power.\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="openAb()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/the-4-fold-path/the-4-fold-path.html"*/
+        selector: 'page-the-4-fold-path',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/the-4-fold-path/the-4-fold-path.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>The 4 fold path</ion-title>\n  <br>\n  The questions and structure is developed from a practice called The 4 Fold Path.<br>\n  A practice developed by Art of Hosting practioners, and is thought of as a way to teach people to change in intelligent ways.\n  <br><br>\n  <b>A Conscious Practice</b><br>\n  Being truly present, engaging skillfully in conversations, being a good host of conversations and enganging with others in co-creation are all skills that are easily understood, \n  but takes continuous practice to hone.\n  <br><br>\n  And that is the purpose of this app: To help you maintain a conscious practice and enchance your skills. \n  <br><br>\n  <b>Building Capacity</b><br>\n  As we learn to be truly present and engage in conversations that really matter, we become learners.\n  <br><br> \n  As learners many doors are open to us.\n  As we begin to host conversations and connect with others, we become a community of learners.\n  <br><br> \n  As a community we hold a bigger capacity than as individuals. In this way a community becomes \'a community that learns\', and here we enter collective intelligence.\n  <br><br>\n  We multiply our capacity and enter the field of emergence - the center of our true power.\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/the-4-fold-path/the-4-fold-path.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], The4FoldPath);
@@ -59,6 +59,8 @@ The4FoldPath = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(208);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -72,10 +74,44 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
 var BuyMoreQuestions = (function () {
-    function BuyMoreQuestions(navCtrl) {
+    function BuyMoreQuestions(navCtrl, emailComposer) {
         this.navCtrl = navCtrl;
+        this.emailComposer = emailComposer;
     }
+    BuyMoreQuestions.prototype.noteToSelf = function () {
+        var _this = this;
+        this.emailComposer.isAvailable().then(function (available) {
+            if (available) {
+                var email_1 = {
+                    to: 'max@mustermann.de',
+                    cc: '',
+                    bcc: ['john@doe.com', 'jane@doe.com'],
+                    attachments: [],
+                    subject: 'Test email emne',
+                    body: 'Test email brødtekst',
+                    isHtml: true
+                };
+                //Now we know we can send
+                _this.emailComposer.open(email_1);
+            }
+        });
+        var email = {
+            to: 'max@mustermann.de',
+            cc: '',
+            bcc: ['john@doe.com', 'jane@doe.com'],
+            attachments: [],
+            subject: 'Test email emne',
+            body: 'Test email brødtekst',
+            isHtml: true
+        };
+        this.emailComposer.open(email);
+    };
+    BuyMoreQuestions.prototype.openAboutTheRoles = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
+    };
     BuyMoreQuestions.prototype.howToUsePressed = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
     };
@@ -86,9 +122,9 @@ var BuyMoreQuestions = (function () {
 }());
 BuyMoreQuestions = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-buy-more-questions',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/buy-more-questions/buy-more-questions.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n<ion-title text-center>Buy More Questions</ion-title>\n<br>\nWe hope you enjoy The 4 Fold Practice and find the questions useful to reflect upon.\n<br><br>\nTo help you taking your practice even further, you can get more questions:\n<br><br>\n<div id="aligner">\n<div>Buy 5 questions more pr. role:</div>\n<button ion-button round class="purchase_button">20 Questions for 25 DKK</button>\n<br>\n<div>Buy 13 questions more pr. role:</div>\n<button ion-button round class="purchase_button">52 Questions for 49 DKK</button>\n</div>\n<br><br>  \nDonation\n<br>\n  To honor the founders and practioners that developed the The 4 Fold Path, a donation of 1 DKK will be given time you buy cards. \n  The donation will be granted to a project, person or fund within the work of Art of Hosting. \n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/buy-more-questions/buy-more-questions.html"*/
+        selector: 'page-buy-more-questions',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/buy-more-questions/buy-more-questions.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n<ion-title text-center>Buy More Questions</ion-title>\n<br>\nWe hope you enjoy The 4 Fold Practice and find the questions useful to reflect upon.\n<br><br>\nTo help you taking your practice even further, you can get more questions:\n<br><br>\n<div id="aligner">\n<div>Buy 5 questions more pr. role:</div>\n<button ion-button round class="purchase_button">20 Questions for 25 DKK</button>\n<br>\n<div>Buy 13 questions more pr. role:</div>\n<button ion-button round class="purchase_button">52 Questions for 49 DKK</button>\n</div>\n<br><br>  \nDonation\n<br>\n  To honor the founders and practioners that developed the The 4 Fold Path, a donation of 1 DKK will be given time you buy cards. \n  The donation will be granted to a project, person or fund within the work of Art of Hosting. \n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/buy-more-questions/buy-more-questions.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__["a" /* EmailComposer */]])
 ], BuyMoreQuestions);
 
 //# sourceMappingURL=buy-more-questions.js.map
@@ -218,6 +254,7 @@ webpackEmptyAsyncContext.id = 117;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role_select_role__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pick_a_card_pick_a_card__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_email_composer__ = __webpack_require__(208);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -233,10 +270,40 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var HowToUse = (function () {
-    function HowToUse(navCtrl) {
+    function HowToUse(navCtrl, emailComposer) {
         this.navCtrl = navCtrl;
+        this.emailComposer = emailComposer;
     }
+    HowToUse.prototype.noteToSelf = function () {
+        var _this = this;
+        this.emailComposer.isAvailable().then(function (available) {
+            if (available) {
+                var email_1 = {
+                    to: 'max@mustermann.de',
+                    cc: '',
+                    bcc: ['john@doe.com', 'jane@doe.com'],
+                    attachments: [],
+                    subject: 'Test email emne',
+                    body: 'Test email brødtekst',
+                    isHtml: true
+                };
+                //Now we know we can send
+                _this.emailComposer.open(email_1);
+            }
+        });
+        var email = {
+            to: 'max@mustermann.de',
+            cc: '',
+            bcc: ['john@doe.com', 'jane@doe.com'],
+            attachments: [],
+            subject: 'Test email emne',
+            body: 'Test email brødtekst',
+            isHtml: true
+        };
+        this.emailComposer.open(email);
+    };
     HowToUse.prototype.theRolesPressed = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
     };
@@ -253,9 +320,9 @@ var HowToUse = (function () {
 }());
 HowToUse = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-how-to-use',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>How to Use</ion-title>\n  <br>\n  This app is made to help you uncover your true power to hold your ground\n  and not be afraid of change.\n  <br><br>\n  It is thought of as a conscious practise where you can explore\n  and reflect upon questions in four group or roles: Host Yourself,\n  Participate, Host Others, and Co-create.\n  <br><br>\n  <div id="roles_container">\n    <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">\n    <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">\n    <img id="hostothers" class="role_image_small" src="assets/roles-small/hostothers_small.png">\n    <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">\n  </div>\n  <br><br>\n  You can explore one role at a time or you can choose a card to answer a question\n  you can hold right there, trusting the serendipity.\n  <br><br>\n  Please, explore, learn and enjoy!\n  <br><br>\n  <div id="button_container">\n  <button ion-button class="green_button" (click)="selectRolePressed()">Select a Role</button> \n  <button ion-button class="green_button" (click)="pickACardPressed()">Pick a Card</button>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="bitt">\n    <button><ion-icon class="active_footer" name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="theRolesPressed()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/
+        selector: 'page-how-to-use',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>How to Use</ion-title>\n  <br>\n  This app is made to help you uncover your true power to hold your ground\n  and not be afraid of change.\n  <br><br>\n  It is thought of as a conscious practise where you can explore\n  and reflect upon questions in four group or roles: Host Yourself,\n  Participate, Host Others, and Co-create.\n  <br><br>\n  <div id="roles_container">\n    <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">\n    <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">\n    <img id="hostothers" class="role_image_small" src="assets/roles-small/hostothers_small.png">\n    <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">\n  </div>\n  <br><br>\n  You can explore one role at a time or you can choose a card to answer a question\n  you can hold right there, trusting the serendipity.\n  <br><br>\n  Please, explore, learn and enjoy!\n  <br><br>\n  <div id="button_container">\n  <button ion-button class="green_button" (click)="selectRolePressed()">Select a Role</button> \n  <button ion-button class="green_button" (click)="pickACardPressed()">Pick a Card</button>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="bitt">\n    <button><ion-icon class="active_footer" name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="theRolesPressed()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_email_composer__["a" /* EmailComposer */]])
 ], HowToUse);
 
 //# sourceMappingURL=how-to-use.js.map
@@ -595,6 +662,8 @@ HostOthers = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pick_a_card_pick_a_card__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(208);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -608,10 +677,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
 var Card = (function () {
-    function Card(navCtrl, navParams) {
+    function Card(navCtrl, navParams, emailComposer) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.emailComposer = emailComposer;
         this.selectedCard = navParams.get('card');
         console.log("Card page");
         console.log(this.selectedCard.role + "\n" + this.selectedCard.question);
@@ -639,6 +711,37 @@ var Card = (function () {
                 break;
         }
     }
+    Card.prototype.noteToSelf = function () {
+        var _this = this;
+        this.emailComposer.isAvailable().then(function (available) {
+            if (available) {
+                var email_1 = {
+                    to: 'max@mustermann.de',
+                    cc: '',
+                    bcc: ['john@doe.com', 'jane@doe.com'],
+                    attachments: [],
+                    subject: 'Test email emne',
+                    body: 'Test email brødtekst',
+                    isHtml: true
+                };
+                //Now we know we can send
+                _this.emailComposer.open(email_1);
+            }
+        });
+        var email = {
+            to: 'max@mustermann.de',
+            cc: '',
+            bcc: ['john@doe.com', 'jane@doe.com'],
+            attachments: [],
+            subject: 'Test email emne',
+            body: 'Test email brødtekst',
+            isHtml: true
+        };
+        this.emailComposer.open(email);
+    };
+    Card.prototype.openAboutTheRoles = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
+    };
     Card.prototype.howToUsePressed = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
     };
@@ -649,9 +752,9 @@ var Card = (function () {
 }());
 Card = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-card',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/card/card.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n\n<ion-content padding>\n  <ion-title text-center>{{selectedCard.role}}</ion-title>\n  <br><br>\n  <div id="card_container">\n  <div id="{{role}}">\n      <img class="card-image" src="assets/roles/{{imgUrl}}.png">\n      <div class="card-title">{{selectedCard.question}}</div>\n      </div>\n  </div>\n</ion-content>\n  \n  <ion-footer>\n    <ion-toolbar>\n      <div id="footer_container">\n      <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n      <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n      <button><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n      <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n    </div>\n    </ion-toolbar>\n  </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/card/card.html"*/
+        selector: 'page-card',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/card/card.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n\n<ion-content padding>\n  <ion-title text-center>{{selectedCard.role}}</ion-title>\n  <br><br>\n  <div id="card_container">\n  <div id="{{role}}">\n      <img class="card-image" src="assets/roles/{{imgUrl}}.png">\n      <div class="card-title">{{selectedCard.question}}</div>\n      </div>\n  </div>\n</ion-content>\n  \n  <ion-footer>\n    <ion-toolbar>\n      <div id="footer_container">\n      <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n      <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n      <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n      <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n    </div>\n    </ion-toolbar>\n  </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/card/card.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__["a" /* EmailComposer */]])
 ], Card);
 
 //# sourceMappingURL=card.js.map
@@ -1098,8 +1201,8 @@ var SelectRole = (function () {
                     cc: '',
                     bcc: ['john@doe.com', 'jane@doe.com'],
                     attachments: [],
-                    subject: 'Cordova Icons',
-                    body: 'How are you? Nice greetings from Leipzig',
+                    subject: 'Test email emne',
+                    body: 'Test email brødtekst',
                     isHtml: true
                 };
                 //Now we know we can send
@@ -1111,8 +1214,8 @@ var SelectRole = (function () {
             cc: '',
             bcc: ['john@doe.com', 'jane@doe.com'],
             attachments: [],
-            subject: 'Cordova Icons',
-            body: 'How are you? Nice greetings from Leipzig',
+            subject: 'Test email emne',
+            body: 'Test email brødtekst',
             isHtml: true
         };
         this.emailComposer.open(email);

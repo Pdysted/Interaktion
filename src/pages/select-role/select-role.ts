@@ -35,8 +35,8 @@ export class SelectRole {
             //'base64:icon.png//iVBORw0KGgoAAAANSUhEUg...',
             //'file://README.pdf'
           ],
-          subject: 'Cordova Icons',
-          body: 'How are you? Nice greetings from Leipzig',
+          subject: 'Test email emne',
+          body: 'Test email brødtekst',
           isHtml: true
         };
         //Now we know we can send
@@ -53,8 +53,8 @@ export class SelectRole {
         //'base64:icon.png//iVBORw0KGgoAAAANSUhEUg...',
         //'file://README.pdf'
       ],
-      subject: 'Cordova Icons',
-      body: 'How are you? Nice greetings from Leipzig',
+      subject: 'Test email emne',
+      body: 'Test email brødtekst',
       isHtml: true
     };
      this.emailComposer.open(email);
