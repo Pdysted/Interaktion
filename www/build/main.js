@@ -1,15 +1,15 @@
 webpackJsonp([0],{
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return The4FoldPath; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -50,17 +50,17 @@ The4FoldPath = __decorate([
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BuyMoreQuestions; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -131,14 +131,14 @@ BuyMoreQuestions = __decorate([
 
 /***/ }),
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RestorePurchase; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -176,15 +176,15 @@ RestorePurchase = __decorate([
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Interaktion; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -226,7 +226,7 @@ Interaktion = __decorate([
 
 /***/ }),
 
-/***/ 117:
+/***/ 118:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -239,7 +239,7 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 117;
+webpackEmptyAsyncContext.id = 118;
 
 /***/ }),
 
@@ -250,11 +250,11 @@ webpackEmptyAsyncContext.id = 117;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HowToUse; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role_select_role__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role_select_role__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_email_composer__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_email_composer__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -329,39 +329,19 @@ HowToUse = __decorate([
 
 /***/ }),
 
-/***/ 159:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 159;
-
-/***/ }),
-
-/***/ 17:
+/***/ 15:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutTheRoles; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_role_select_role__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__contact_contact__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__about_the_roles_about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__be_present_be_present__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__co_create_co_create__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__engage_engage__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__host_others_host_others__ = __webpack_require__(206);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -379,104 +359,66 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-
-var HomePage = (function () {
-    function HomePage(navCtrl) {
-        //this.pushPage = SelectRole;
+var AboutTheRoles = (function () {
+    function AboutTheRoles(navCtrl) {
         this.navCtrl = navCtrl;
-        this.pages = [
-            { title: 'Select a Role', component: __WEBPACK_IMPORTED_MODULE_2__select_role_select_role__["a" /* SelectRole */] },
-            { title: 'Pick a Card', component: __WEBPACK_IMPORTED_MODULE_3__pick_a_card_pick_a_card__["a" /* PickACard */] },
-            { title: 'The 4 Fold Path', component: __WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__["a" /* The4FoldPath */] },
-            { title: 'How to Use', component: __WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__["a" /* HowToUse */] },
-            { title: 'Buy more questions', component: __WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__["a" /* BuyMoreQuestions */] },
-            { title: 'Restore purchase', component: __WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__["a" /* RestorePurchase */] },
-            { title: 'Interaktion', component: __WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__["a" /* Interaktion */] },
-            { title: 'Contact', component: __WEBPACK_IMPORTED_MODULE_9__contact_contact__["a" /* Contact */] }
-        ];
     }
-    /*openPage(event) {
-      var buttonName = event.target.name;
-      switch (buttonName) {
-        case "select_role":
-        this.navCtrl.setRoot(SelectRole);
-        break;
-        case "pick_a_card":
-        this.navCtrl.setRoot(PickACard);
-        break;
-        case "the_4_fold_path":
-        this.navCtrl.setRoot(The4FoldPath);
-        break;
-        case "how_to_use":
-        this.navCtrl.setRoot(HowToUse);
-        break;
-        case "buy_more_questions":
-        this.navCtrl.setRoot(BuyMoreQuestions);
-        break;
-        case "restore_purchase":
-        this.navCtrl.setRoot(RestorePurchase);
-        break;
-        case "interaktion":
-        this.navCtrl.setRoot(Interaktion);
-        break;
-        case "contact":
-        this.navCtrl.setRoot(Contact);
-        break;
-      }
-    }*/
-    //Temporary solution to the navigation issue, should be replaced with a controller
-    //Instead of this mess of redundancy, for shame  this.navCtrl.setRoot(page.component);
-    //An advantage to this could be the reusability in the footer menu, I guess
-    HomePage.prototype.openSelectRole = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__select_role_select_role__["a" /* SelectRole */]);
+    AboutTheRoles.prototype.bePresentPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__be_present_be_present__["a" /* BePresent */]);
     };
-    HomePage.prototype.openPickACard = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__pick_a_card_pick_a_card__["a" /* PickACard */]);
+    AboutTheRoles.prototype.coCreatePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__co_create_co_create__["a" /* CoCreate */]);
     };
-    HomePage.prototype.openThe4FoldPath = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__["a" /* The4FoldPath */]);
+    AboutTheRoles.prototype.engagePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__engage_engage__["a" /* Engage */]);
     };
-    HomePage.prototype.openHowToUse = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__["a" /* HowToUse */]);
+    AboutTheRoles.prototype.hostOthersPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__host_others_host_others__["a" /* HostOthers */]);
     };
-    HomePage.prototype.openBuyMoreQuestions = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__["a" /* BuyMoreQuestions */]);
+    AboutTheRoles.prototype.howToUsePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
     };
-    HomePage.prototype.openRestorePurchase = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__["a" /* RestorePurchase */]);
+    AboutTheRoles.prototype.backPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
     };
-    HomePage.prototype.openInteraktion = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__["a" /* Interaktion */]);
-    };
-    HomePage.prototype.openContact = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__contact_contact__["a" /* Contact */]);
-    };
-    HomePage.prototype.openAboutTheRoles = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_10__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
-    };
-    return HomePage;
+    return AboutTheRoles;
 }());
-HomePage = __decorate([
+AboutTheRoles = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="aligner">\n    <!--Works if it\'s to open a "new" page and keep the first as parent/root-->\n    <!--<li><button ion-button round class="menu_button" [navPush]="pushPage">Select a Role</button></li>-->\n    <!--individual methods to change each page? Is it really nescessary? 3 methods of entry points, menu burger\n    menu side and the footer bar? Seems awfully redundant.-->\n    <div></div>\n    <ion-list id="list" >\n      <li><button ion-button class="menu_button_green" name="select_role" (click)="openSelectRole()">Select a Role</button></li>\n      <li><button ion-button class="menu_button_green" name="pick_a_card" (click)="openPickACard()">Pick a Card</button></li>\n      <br><br>\n      <li><button ion-button class="menu_button_blue" name="the_4_fold_path" (click)="openThe4FoldPath()">The 4 Fold Path</button></li>\n      <li><button ion-button class="menu_button_blue" name="how_to_use" (click)="openHowToUse()">How to Use</button></li>\n      <li><button ion-button class="menu_button_blue" name="buy_more_questions" (click)="openBuyMoreQuestions()">Buy more questions</button></li>\n      <li><button ion-button class="menu_button_blue" name="restore_purchase" (click)="openRestorePurchase()">Restore purchase</button></li>\n      <br>\n      <li><button ion-button class="menu_button_purple" name="interaktion" (click)="openInteraktion()">Interaktion</button></li>\n      <li><button ion-button class="menu_button_purple" name="contact" (click)="openContact()">Contact</button></li>\n    </ion-list>\n  </div>\n\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="openHowToUse()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/home/home.html"*/
+        selector: 'page-about-the-roles',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/about-the-roles.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n      <div id="role_container">\n        <div class="role_button" (click)="bePresentPressed()">\n          <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">\n          <div><h6>BE PRESENT</h6>\n          Is about hosting yourself and presensing.</div>\n        </div>\n        <div class="role_button" (click)="engagePressed()">\n          <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">\n          <div><h6>ENGAGE</h6>\n          Is about participation and practice conversation.</div>\n        </div>  \n        <div class="role_button" (click)="hostOthersPressed()">\n          <img id="hostothers" class="role_image_small" src="assets/roles-small/hostothers_small.png">\n          <div><h6>HOST OTHERS</h6>\n          Is about hosting conversations.</div>\n        </div>  \n        <div class="role_button" (click)="coCreatePressed()">\n          <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">\n          <div><h6>CO-CREATE</h6>\n          Is about being a part of a community hosting itself.</div>\n        </div>      \n      </div>\n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/about-the-roles.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-], HomePage);
+], AboutTheRoles);
 
-//# sourceMappingURL=home.js.map
+//# sourceMappingURL=about-the-roles.js.map
 
 /***/ }),
 
-/***/ 202:
+/***/ 160:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 160;
+
+/***/ }),
+
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BePresent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -515,14 +457,14 @@ BePresent = __decorate([
 
 /***/ }),
 
-/***/ 203:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoCreate; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -561,14 +503,14 @@ CoCreate = __decorate([
 
 /***/ }),
 
-/***/ 204:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Engage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -607,14 +549,14 @@ Engage = __decorate([
 
 /***/ }),
 
-/***/ 205:
+/***/ 206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HostOthers; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -653,7 +595,7 @@ HostOthers = __decorate([
 
 /***/ }),
 
-/***/ 207:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -662,8 +604,8 @@ HostOthers = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pick_a_card_pick_a_card__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -779,15 +721,18 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutTheRoles; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__be_present_be_present__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__co_create_co_create__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__engage_engage__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__host_others_host_others__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_role_select_role__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pick_a_card_pick_a_card__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__contact_contact__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__about_the_roles_about_the_roles__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -805,38 +750,93 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var AboutTheRoles = (function () {
-    function AboutTheRoles(navCtrl) {
+
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl) {
+        //this.pushPage = SelectRole;
         this.navCtrl = navCtrl;
+        this.pages = [
+            { title: 'Select a Role', component: __WEBPACK_IMPORTED_MODULE_2__select_role_select_role__["a" /* SelectRole */] },
+            { title: 'Pick a Card', component: __WEBPACK_IMPORTED_MODULE_3__pick_a_card_pick_a_card__["a" /* PickACard */] },
+            { title: 'The 4 Fold Path', component: __WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__["a" /* The4FoldPath */] },
+            { title: 'How to Use', component: __WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__["a" /* HowToUse */] },
+            { title: 'Buy more questions', component: __WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__["a" /* BuyMoreQuestions */] },
+            { title: 'Restore purchase', component: __WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__["a" /* RestorePurchase */] },
+            { title: 'Interaktion', component: __WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__["a" /* Interaktion */] },
+            { title: 'Contact', component: __WEBPACK_IMPORTED_MODULE_9__contact_contact__["a" /* Contact */] }
+        ];
     }
-    AboutTheRoles.prototype.bePresentPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__be_present_be_present__["a" /* BePresent */]);
+    /*openPage(event) {
+      var buttonName = event.target.name;
+      switch (buttonName) {
+        case "select_role":
+        this.navCtrl.setRoot(SelectRole);
+        break;
+        case "pick_a_card":
+        this.navCtrl.setRoot(PickACard);
+        break;
+        case "the_4_fold_path":
+        this.navCtrl.setRoot(The4FoldPath);
+        break;
+        case "how_to_use":
+        this.navCtrl.setRoot(HowToUse);
+        break;
+        case "buy_more_questions":
+        this.navCtrl.setRoot(BuyMoreQuestions);
+        break;
+        case "restore_purchase":
+        this.navCtrl.setRoot(RestorePurchase);
+        break;
+        case "interaktion":
+        this.navCtrl.setRoot(Interaktion);
+        break;
+        case "contact":
+        this.navCtrl.setRoot(Contact);
+        break;
+      }
+    }*/
+    //Temporary solution to the navigation issue, should be replaced with a controller
+    //Instead of this mess of redundancy, for shame  this.navCtrl.setRoot(page.component);
+    //An advantage to this could be the reusability in the footer menu, I guess
+    HomePage.prototype.openSelectRole = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__select_role_select_role__["a" /* SelectRole */]);
     };
-    AboutTheRoles.prototype.coCreatePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__co_create_co_create__["a" /* CoCreate */]);
+    HomePage.prototype.openPickACard = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__pick_a_card_pick_a_card__["a" /* PickACard */]);
     };
-    AboutTheRoles.prototype.engagePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__engage_engage__["a" /* Engage */]);
+    HomePage.prototype.openThe4FoldPath = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__["a" /* The4FoldPath */]);
     };
-    AboutTheRoles.prototype.hostOthersPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__host_others_host_others__["a" /* HostOthers */]);
+    HomePage.prototype.openHowToUse = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__["a" /* HowToUse */]);
     };
-    AboutTheRoles.prototype.howToUsePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
+    HomePage.prototype.openBuyMoreQuestions = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__["a" /* BuyMoreQuestions */]);
     };
-    AboutTheRoles.prototype.backPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
+    HomePage.prototype.openRestorePurchase = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__["a" /* RestorePurchase */]);
     };
-    return AboutTheRoles;
+    HomePage.prototype.openInteraktion = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__["a" /* Interaktion */]);
+    };
+    HomePage.prototype.openContact = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__contact_contact__["a" /* Contact */]);
+    };
+    HomePage.prototype.openAboutTheRoles = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_10__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
+    };
+    return HomePage;
 }());
-AboutTheRoles = __decorate([
+HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-about-the-roles',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/about-the-roles.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n      <div id="role_container">\n        <div class="role_button" (click)="bePresentPressed()">\n          <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">\n          <div><h6>BE PRESENT</h6>\n          Is about hosting yourself and presensing.</div>\n        </div>\n        <div class="role_button" (click)="engagePressed()">\n          <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">\n          <div><h6>ENGAGE</h6>\n          Is about participation and practice conversation.</div>\n        </div>  \n        <div class="role_button" (click)="hostOthersPressed()">\n          <img id="hostothers" class="role_image_small" src="assets/roles-small/hostothers_small.png">\n          <div><h6>HOST OTHERS</h6>\n          Is about hosting conversations.</div>\n        </div>  \n        <div class="role_button" (click)="coCreatePressed()">\n          <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">\n          <div><h6>CO-CREATE</h6>\n          Is about being a part of a community hosting itself.</div>\n        </div>      \n      </div>\n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/about-the-roles.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="aligner">\n    <!--Works if it\'s to open a "new" page and keep the first as parent/root-->\n    <!--<li><button ion-button round class="menu_button" [navPush]="pushPage">Select a Role</button></li>-->\n    <!--individual methods to change each page? Is it really nescessary? 3 methods of entry points, menu burger\n    menu side and the footer bar? Seems awfully redundant.-->\n    <div></div>\n    <ion-list id="list" >\n      <li><button ion-button class="menu_button_green" name="select_role" (click)="openSelectRole()">Select a Role</button></li>\n      <li><button ion-button class="menu_button_green" name="pick_a_card" (click)="openPickACard()">Pick a Card</button></li>\n      <br><br>\n      <li><button ion-button class="menu_button_blue" name="the_4_fold_path" (click)="openThe4FoldPath()">The 4 Fold Path</button></li>\n      <li><button ion-button class="menu_button_blue" name="how_to_use" (click)="openHowToUse()">How to Use</button></li>\n      <li><button ion-button class="menu_button_blue" name="buy_more_questions" (click)="openBuyMoreQuestions()">Buy more questions</button></li>\n      <li><button ion-button class="menu_button_blue" name="restore_purchase" (click)="openRestorePurchase()">Restore purchase</button></li>\n      <br>\n      <li><button ion-button class="menu_button_purple" name="interaktion" (click)="openInteraktion()">Interaktion</button></li>\n      <li><button ion-button class="menu_button_purple" name="contact" (click)="openContact()">Contact</button></li>\n    </ion-list>\n  </div>\n\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="openHowToUse()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-], AboutTheRoles);
+], HomePage);
 
-//# sourceMappingURL=about-the-roles.js.map
+//# sourceMappingURL=home.js.map
 
 /***/ }),
 
@@ -848,26 +848,26 @@ AboutTheRoles = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_select_role_select_role__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_select_role_select_role__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_restore_purchase_restore_purchase__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_interaktion_interaktion__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_the_roles_about_the_roles__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_about_the_roles_be_present_be_present__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_about_the_roles_co_create_co_create__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_about_the_roles_engage_engage__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_about_the_roles_host_others_host_others__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_card_card__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_http__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_email_composer__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_restore_purchase_restore_purchase__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_interaktion_interaktion__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_the_roles_about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_about_the_roles_be_present_be_present__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_about_the_roles_co_create_co_create__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_about_the_roles_engage_engage__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_about_the_roles_host_others_host_others__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_card_card__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_http__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_email_composer__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -966,17 +966,17 @@ AppModule = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_select_role_select_role__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_select_role_select_role__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_restore_purchase_restore_purchase__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_interaktion_interaktion__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_restore_purchase_restore_purchase__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_interaktion_interaktion__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__ = __webpack_require__(55);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1064,13 +1064,12 @@ MyApp = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickACard; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(277);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__card_card__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__home_home__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_the_roles_about_the_roles__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__card_card__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_the_roles_about_the_roles__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1084,7 +1083,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 //import { Platform } from 'ionic-angular';
-
 
 
 
@@ -1137,38 +1135,56 @@ var PickACard = (function () {
         });
     };
     PickACard.prototype.howToUsePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__how_to_use_how_to_use__["a" /* HowToUse */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__["a" /* HowToUse */]);
     };
     PickACard.prototype.openAboutTheRoles = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
     };
     PickACard.prototype.backPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__home_home__["a" /* HomePage */]);
+        //this.navCtrl.setRoot(HomePage);
+        var scrollLeft = this.scrollElement._scrollContent.nativeElement.scrollLeft;
+        console.log(scrollLeft);
+        var elements = this.scrollElement._scrollContent.nativeElement.children[0].children;
+        console.log(this.scrollElement._scrollContent.nativeElement.children[0].children);
+        for (var i = 0; i < elements.length; i++) {
+            var element = elements[i];
+            if ((scrollLeft + 116) <= (element.offsetLeft) && (element.offsetLeft) < (scrollLeft + 249)) {
+                element.id = "center_card";
+            }
+            //console.log(elements[i]);
+        }
+    };
+    PickACard.prototype.ngAfterViewInit = function () {
     };
     return PickACard;
 }());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('scrollElement'),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */]) === "function" && _a || Object)
+], PickACard.prototype, "scrollElement", void 0);
 PickACard = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-pick-a-card',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="pick_a_card_style">\n  <div id="aligner">\n  <h3>Pick a card</h3>\n</div>\n  <ion-scroll scrollX="true">\n  <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">\n  <div class="card-title">The 4 Fold Practice</div>\n  <img class="card-image" src="assets/bagside.jpeg">\n  </div>\n  </ion-scroll>\n  <div id="pointer"><div></div></div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="shuffleCards()"><ion-icon name="shuffle"><br><div class="footer_button_text">Shuffle Cards</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/
+        selector: 'page-pick-a-card',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="pick_a_card_style">\n  <div id="aligner">\n    <h3>Pick a card</h3>\n  </div>\n  <ion-scroll #scrollElement scrollX="true" (click)="backPressed()">\n  <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">\n  <div class="card-title">The 4 Fold Practice</div>\n  <img class="card-image" src="assets/bagside.jpeg">\n  </div>\n  </ion-scroll>\n  <div id="pointer"><div></div></div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="shuffleCards()"><ion-icon name="shuffle"><br><div class="footer_button_text">Shuffle Cards</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/ !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/) === "function" && _d || Object])
 ], PickACard);
 
+var _a, _b, _c, _d;
 //# sourceMappingURL=pick-a-card.js.map
 
 /***/ }),
 
-/***/ 53:
+/***/ 54:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectRole; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1239,14 +1255,14 @@ SelectRole = __decorate([
 
 /***/ }),
 
-/***/ 54:
+/***/ 55:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Contact; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

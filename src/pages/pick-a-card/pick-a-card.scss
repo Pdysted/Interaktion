@@ -12,6 +12,7 @@
 
 ion-scroll[scrollX] {
   white-space: nowrap;
+  width: 100vw;
   height:44vh;
   margin-top: 10vh;
   .scroll-item {
@@ -31,10 +32,23 @@ ion-scroll[scrollX] {
       //background-image: url("../assets/bagside.jpeg);
       background-size: 30vw 30vh;
     }
-    width: 45vw;
-    height: 40vh;
+    width: 35vw;
+    height: 30vh;
     margin-left: 1vw;
   }
+
+  #center_card {
+    width: 45vw;
+    height: 40vh;
+  }
+}
+
+#scroll_container {
+  width: 100vw;
+  height:44vh;
+  display: flex;
+  flex-direction: row;
+
 }
 
 #pointer {

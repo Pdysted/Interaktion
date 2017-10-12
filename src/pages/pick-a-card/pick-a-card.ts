@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild, AfterViewInit } from '@angular/core';
+import { NavController, NavParams, Scroll } from 'ionic-angular';
 import {Http} from '@angular/http';
 //import { Platform } from 'ionic-angular';
 import 'rxjs/add/operator/map';
@@ -9,11 +9,13 @@ import { HomePage } from '../home/home';
 import { HowToUse } from '../how-to-use/how-to-use';
 import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 
+
 @Component({
   selector: 'page-pick-a-card',
   templateUrl: 'pick-a-card.html'
 })
 export class PickACard {
+  @ViewChild('scrollElement') scrollElement: Scroll;
   cards: Array<{role: string, question:string}>;  
   constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http/*, private platform: Platform*/) {
     //You need to subscribe to the observable and pass a callback that processes emitted values
@@ -21,7 +23,10 @@ export class PickACard {
     this.cards = [];
     this.getCards().subscribe(val =>
       this.populateCards(val));
+
   }
+
+
 
   public getCards() {
         var url = 'assets/data/questions.json'; 
@@ -73,6 +78,26 @@ public shuffleCards() {
   }
 
   backPressed() {
-    this.navCtrl.setRoot(HomePage);
+    //this.navCtrl.setRoot(HomePage);
+    
+    var scrollLeft = this.scrollElement._scrollContent.nativeElement.scrollLeft;
+    console.log(scrollLeft);
+    var elements = this.scrollElement._scrollContent.nativeElement.children[0].children;
+    console.log(this.scrollElement._scrollContent.nativeElement.children[0].children);
+    for (let i = 0; i < elements.length; i++) {
+      let element = elements[i];
+      if ((scrollLeft + 116) <= (element.offsetLeft) && (element.offsetLeft) < (scrollLeft + 249)) {
+          element.id = "center_card";
+      }
+      //console.log(elements[i]);
+    }
   }
+
+
+
+  ngAfterViewInit() {
+
+  
+  }
+  
 }

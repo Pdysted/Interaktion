@@ -25675,6 +25675,7 @@ ion-icon {
 
 ion-scroll[scrollX] {
   white-space: nowrap;
+  width: 100vw;
   height: 44vh;
   margin-top: 10vh;
 }
@@ -25684,8 +25685,8 @@ ion-scroll[scrollX] .scroll-item {
   border: solid 3px #E67A09;
   border-radius: 20px;
   display: inline-block;
-  width: 45vw;
-  height: 40vh;
+  width: 35vw;
+  height: 30vh;
   margin-left: 1vw;
 }
 
@@ -25708,6 +25709,25 @@ ion-scroll[scrollX] .scroll-item .card-title {
 ion-scroll[scrollX] .scroll-item .card-image {
   content: url("../assets/bagside.jpeg");
   background-size: 30vw 30vh;
+}
+
+ion-scroll[scrollX] #center_card {
+  width: 45vw;
+  height: 40vh;
+}
+
+#scroll_container {
+  width: 100vw;
+  height: 44vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 #pointer {

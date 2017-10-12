@@ -12,9 +12,9 @@
 
 <ion-content class="pick_a_card_style">
   <div id="aligner">
-  <h3>Pick a card</h3>
-</div>
-  <ion-scroll scrollX="true">
+    <h3>Pick a card</h3>
+  </div>
+  <ion-scroll #scrollElement scrollX="true" (click)="backPressed()">
   <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">
   <div class="card-title">The 4 Fold Practice</div>
   <img class="card-image" src="assets/bagside.jpeg">
