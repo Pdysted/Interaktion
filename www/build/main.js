@@ -1305,10 +1305,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var Contact = (function () {
-    function Contact(navCtrl, callNumber) {
+    function Contact(navCtrl, callNumber, toastCtrl) {
         this.navCtrl = navCtrl;
         this.callNumber = callNumber;
+        this.toastCtrl = toastCtrl;
     }
     Contact.prototype.howToUsePressed = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
@@ -1317,7 +1319,7 @@ var Contact = (function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
     };
     Contact.prototype.dialNumber = function () {
-        this.callNumber.callNumber("+45 30 24 84 28", true)
+        this.callNumber.callNumber("+4530248428", true)
             .then(function () { return console.log('Launched dialer!'); })
             .catch(function () { return console.log('Error launching dialer'); });
     };
@@ -1328,10 +1330,10 @@ Contact = __decorate([
         selector: 'page-contact',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>Contact us</ion-title>\n  <br><br>\n  Are you curious on more or do you face challenges at work?\n  <br><br>\n  We are here to help you and your organization going from strategy to great and sustainable solutions with great results.\n  <br>\n  The way we do it, is through hosting conversations that matter for everyone.\n  <br><br>\n  Please do not hesitate to contact us. We look forward to hearing from you.\n  <br><br><br>\n  \n  <div id="contact_container">\n    <div>\n    Call us <br>\n    E-mail us <br>\n    Visit us\n  </div>\n    <div id="contact_info">\n      <div (click)="dialNumber()">+45 30 24 84 28</div><br>\n      info@interaktion.dk<br>\n      www.interaktion.dk\n    </div>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>    \n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/contact/contact.html"*/,
         providers: [__WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */]]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */]) === "function" && _c || Object])
 ], Contact);
 
-var _a, _b;
+var _a, _b, _c;
 //# sourceMappingURL=contact.js.map
 
 /***/ })

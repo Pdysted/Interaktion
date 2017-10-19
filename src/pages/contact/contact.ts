@@ -6,6 +6,8 @@ import { HowToUse } from '../how-to-use/how-to-use';
 
 import { CallNumber } from '@ionic-native/call-number';
 
+import { ToastController } from 'ionic-angular';
+
 @Component({
   selector: 'page-contact',
   templateUrl: 'contact.html',
@@ -13,7 +15,7 @@ import { CallNumber } from '@ionic-native/call-number';
 })
 export class Contact {
 
-  constructor(public navCtrl: NavController, private callNumber: CallNumber) {
+  constructor(public navCtrl: NavController, private callNumber: CallNumber, public toastCtrl: ToastController) {
 
   }
 
@@ -26,7 +28,7 @@ export class Contact {
   }
 
   dialNumber() {
-  this.callNumber.callNumber("+45 30 24 84 28", true)
+  this.callNumber.callNumber("+4530248428", true)
   .then(() => console.log('Launched dialer!'))
   .catch(() => console.log('Error launching dialer'));
   }
