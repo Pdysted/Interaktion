@@ -25731,9 +25731,9 @@ ion-scroll[scrollX] #center_card {
 }
 
 #pointer {
-  margin-left: 45%;
+  margin-left: 30%;
   background-color: #8492A6;
-  width: 7vw;
+  width: 47%;
   height: 6vh;
   border-radius: 8%;
 }

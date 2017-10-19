@@ -6,6 +6,11 @@ import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 import { SelectRole } from '../select-role/select-role';
 import { PickACard } from '../pick-a-card/pick-a-card';
 
+import { BePresent } from '../about-the-roles/be-present/be-present';
+import { CoCreate } from '../about-the-roles/co-create/co-create';
+import { Engage } from '../about-the-roles/engage/engage';
+import { HostOthers } from '../about-the-roles/host-others/host-others';
+
 import { EmailComposer } from '@ionic-native/email-composer';
 
 
@@ -56,6 +61,22 @@ export class HowToUse {
     };
      this.emailComposer.open(email);
      
+  }
+
+  bePresentPressed() {
+    this.navCtrl.setRoot(BePresent);    
+  }
+
+  coCreatePressed() {
+    this.navCtrl.setRoot(CoCreate);    
+  }
+
+  engagePressed() {
+    this.navCtrl.setRoot(Engage);    
+  }
+
+  hostOthersPressed() {
+    this.navCtrl.setRoot(HostOthers);    
   }
 
   theRolesPressed() {

@@ -79,15 +79,22 @@ public shuffleCards() {
 
   backPressed() {
     //this.navCtrl.setRoot(HomePage);
-    
+
+    //320 should be replaced with device width 
+    //Maybe change the centerEnd to half the card size 
+    //To move it closer to the center when scaling it 
+    var centerStart = 320 * 0.30;
+    var centerEnd = 320 * 0.47;
     var scrollLeft = this.scrollElement._scrollContent.nativeElement.scrollLeft;
     console.log(scrollLeft);
     var elements = this.scrollElement._scrollContent.nativeElement.children[0].children;
     console.log(this.scrollElement._scrollContent.nativeElement.children[0].children);
     for (let i = 0; i < elements.length; i++) {
       let element = elements[i];
-      if ((scrollLeft + 116) <= (element.offsetLeft) && (element.offsetLeft) < (scrollLeft + 249)) {
+      if ((scrollLeft + centerStart) <= (element.offsetLeft) && (element.offsetLeft) < (scrollLeft + centerEnd)) {
           element.id = "center_card";
+           console.log((scrollLeft + centerStart) + " <= " + element.offsetLeft);
+           console.log(element.offsetLeft + " < " + (scrollLeft + centerEnd));
       }
       //console.log(elements[i]);
     }

@@ -254,7 +254,11 @@ webpackEmptyAsyncContext.id = 118;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role_select_role__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_email_composer__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_the_roles_be_present_be_present__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_the_roles_co_create_co_create__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_the_roles_engage_engage__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_the_roles_host_others_host_others__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_email_composer__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -264,6 +268,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
+
+
+
 
 
 
@@ -304,6 +312,18 @@ var HowToUse = (function () {
         };
         this.emailComposer.open(email);
     };
+    HowToUse.prototype.bePresentPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__about_the_roles_be_present_be_present__["a" /* BePresent */]);
+    };
+    HowToUse.prototype.coCreatePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__about_the_roles_co_create_co_create__["a" /* CoCreate */]);
+    };
+    HowToUse.prototype.engagePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__about_the_roles_engage_engage__["a" /* Engage */]);
+    };
+    HowToUse.prototype.hostOthersPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__about_the_roles_host_others_host_others__["a" /* HostOthers */]);
+    };
     HowToUse.prototype.theRolesPressed = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
     };
@@ -320,9 +340,9 @@ var HowToUse = (function () {
 }());
 HowToUse = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-how-to-use',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>How to Use</ion-title>\n  <br>\n  This app is made to help you uncover your true power to hold your ground\n  and not be afraid of change.\n  <br><br>\n  It is thought of as a conscious practise where you can explore\n  and reflect upon questions in four group or roles: Host Yourself,\n  Participate, Host Others, and Co-create.\n  <br><br>\n  <div id="roles_container">\n    <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">\n    <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">\n    <img id="hostothers" class="role_image_small" src="assets/roles-small/hostothers_small.png">\n    <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">\n  </div>\n  <br><br>\n  You can explore one role at a time or you can choose a card to answer a question\n  you can hold right there, trusting the serendipity.\n  <br><br>\n  Please, explore, learn and enjoy!\n  <br><br>\n  <div id="button_container">\n  <button ion-button class="green_button" (click)="selectRolePressed()">Select a Role</button> \n  <button ion-button class="green_button" (click)="pickACardPressed()">Pick a Card</button>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="bitt">\n    <button><ion-icon class="active_footer" name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="theRolesPressed()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/
+        selector: 'page-how-to-use',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>How to Use</ion-title>\n  <br>\n  This app is made to help you uncover your true power to hold your ground\n  and not be afraid of change.\n  <br><br>\n  It is thought of as a conscious practise where you can explore\n  and reflect upon questions in four group or roles: Host Yourself,\n  Participate, Host Others, and Co-create.\n  <br><br>\n  <div id="roles_container">\n    <img id="hostyourself" class="role_image_small" (click)="bePresentPressed()" src="assets/roles-small/hostyourself_small.png">\n    <img id="participate" class="role_image_small" (click)="engagePressed()" src="assets/roles-small/participate_small.png">\n    <img id="hostothers" class="role_image_small" (click)="hostOthersPressed()" src="assets/roles-small/hostothers_small.png">\n    <img id="cocreate" class="role_image_small" (click)="coCreatePressed()" src="assets/roles-small/cocreate_small.png">\n  </div>\n  <br><br>\n  You can explore one role at a time or you can choose a card to answer a question\n  you can hold right there, trusting the serendipity.\n  <br><br>\n  Please, explore, learn and enjoy!\n  <br><br>\n  <div id="button_container">\n  <button ion-button class="green_button" (click)="selectRolePressed()">Select a Role</button> \n  <button ion-button class="green_button" (click)="pickACardPressed()">Pick a Card</button>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="bitt">\n    <button><ion-icon class="active_footer" name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="theRolesPressed()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_email_composer__["a" /* EmailComposer */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_email_composer__["a" /* EmailComposer */]])
 ], HowToUse);
 
 //# sourceMappingURL=how-to-use.js.map
@@ -1142,14 +1162,21 @@ var PickACard = (function () {
     };
     PickACard.prototype.backPressed = function () {
         //this.navCtrl.setRoot(HomePage);
+        //320 should be replaced with device width 
+        //Maybe change the centerEnd to half the card size 
+        //To move it closer to the center when scaling it 
+        var centerStart = 320 * 0.30;
+        var centerEnd = 320 * 0.47;
         var scrollLeft = this.scrollElement._scrollContent.nativeElement.scrollLeft;
         console.log(scrollLeft);
         var elements = this.scrollElement._scrollContent.nativeElement.children[0].children;
         console.log(this.scrollElement._scrollContent.nativeElement.children[0].children);
         for (var i = 0; i < elements.length; i++) {
             var element = elements[i];
-            if ((scrollLeft + 116) <= (element.offsetLeft) && (element.offsetLeft) < (scrollLeft + 249)) {
+            if ((scrollLeft + centerStart) <= (element.offsetLeft) && (element.offsetLeft) < (scrollLeft + centerEnd)) {
                 element.id = "center_card";
+                console.log((scrollLeft + centerStart) + " <= " + element.offsetLeft);
+                console.log(element.offsetLeft + " < " + (scrollLeft + centerEnd));
             }
             //console.log(elements[i]);
         }
@@ -1160,16 +1187,15 @@ var PickACard = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('scrollElement'),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */])
 ], PickACard.prototype, "scrollElement", void 0);
 PickACard = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-pick-a-card',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="pick_a_card_style">\n  <div id="aligner">\n    <h3>Pick a card</h3>\n  </div>\n  <ion-scroll #scrollElement scrollX="true" (click)="backPressed()">\n  <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">\n  <div class="card-title">The 4 Fold Practice</div>\n  <img class="card-image" src="assets/bagside.jpeg">\n  </div>\n  </ion-scroll>\n  <div id="pointer"><div></div></div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="shuffleCards()"><ion-icon name="shuffle"><br><div class="footer_button_text">Shuffle Cards</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/ !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/) === "function" && _d || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/])
 ], PickACard);
 
-var _a, _b, _c, _d;
 //# sourceMappingURL=pick-a-card.js.map
 
 /***/ }),
