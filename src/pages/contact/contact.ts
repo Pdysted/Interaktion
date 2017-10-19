@@ -8,7 +8,8 @@ import { CallNumber } from '@ionic-native/call-number';
 
 @Component({
   selector: 'page-contact',
-  templateUrl: 'contact.html'
+  templateUrl: 'contact.html',
+  providers: [CallNumber]
 })
 export class Contact {
 

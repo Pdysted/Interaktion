@@ -4,6 +4,190 @@ webpackJsonp([0],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BePresent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+//two directories is back ../../
+
+
+var BePresent = (function () {
+    function BePresent(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    BePresent.prototype.howToUsePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
+    };
+    BePresent.prototype.backPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__about_the_roles__["a" /* AboutTheRoles */]);
+    };
+    return BePresent;
+}());
+BePresent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-be-present',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/be-present/be-present.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n        <div class="role_button">\n          <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">\n          <div><h6>BE PRESENT</h6>\n          Is about hosting yourself and presensing.<br><br>\n          <ul class="role_bullet_list">\n              <li>Being present with yourself to practice and discipline being you</li>\n              <li>To allow you to go into difficult conversations in a ground way</li>\n              <li>To be a little more consciousness every day</li>\n              <br><br>\n              <li>How to lead yourself</li>\n              <li>How to host yourself and your balance</li>\n              <li>How to be balanced and carm - free of fear and hidden agendas</li>\n            </ul>\n        </div>\n        </div>\n        <!--This can be generalized to not use 4 different pages, but send a list as a data,\n        the breaklines might be an issue however-->\n        \n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/be-present/be-present.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+], BePresent);
+
+//# sourceMappingURL=be-present.js.map
+
+/***/ }),
+
+/***/ 107:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoCreate; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+//two directories is back ../../
+
+
+var CoCreate = (function () {
+    function CoCreate(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    CoCreate.prototype.howToUsePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
+    };
+    CoCreate.prototype.backPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__about_the_roles__["a" /* AboutTheRoles */]);
+    };
+    return CoCreate;
+}());
+CoCreate = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-co-create',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/co-create/co-create.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n        <div class="role_button">\n          <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">\n          <div><h6>Co-Create</h6>\n            Is about being part of a community hosting itself:<br><br>\n            <ul class="role_bullet_list"> \n                <li>To be a commnity of practise</li>\n                <li>To be in learning together</li>\n                <li>To continuously practice to build relationship and skill</li>\n                <br><br>\n                <li>How to host the whole</li>\n                <li>How to keep the overview, focus and attention on the whole</li>\n                <li>How to give space for all to learn something about themselves, each other, to learn and create the best solutions together and to keep both the hight and persistence until you have fullfilled the commen good</li>\n            </ul>\n          </div>\n        </div>\n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/co-create/co-create.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+], CoCreate);
+
+//# sourceMappingURL=co-create.js.map
+
+/***/ }),
+
+/***/ 108:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Engage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+//two directories back is ../../
+
+
+var Engage = (function () {
+    function Engage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    Engage.prototype.howToUsePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
+    };
+    Engage.prototype.backPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__about_the_roles__["a" /* AboutTheRoles */]);
+    };
+    return Engage;
+}());
+Engage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-engage',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/engage/engage.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n        <div class="role_button">\n          <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">\n          <div><h6>Engage</h6>\n          Is about being hosted and practice conversation:<br><br>\n          <ul class="role_bullet_list">  \n              <li>To participate as a student, as a listener</li>\n              <li>To be the ever-curious little child inside</li>\n              <li>To be open</li> \n              <br><br>\n              <li>How to host yourself and give room for others to host you</li>\n              <li>How to participate and contribute - being open, curiuos and listening</li>\n            </ul>\n        </div>\n        </div>\n        \n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/engage/engage.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+], Engage);
+
+//# sourceMappingURL=engage.js.map
+
+/***/ }),
+
+/***/ 109:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HostOthers; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+//two directories is back ../../
+
+
+var HostOthers = (function () {
+    function HostOthers(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    HostOthers.prototype.howToUsePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
+    };
+    HostOthers.prototype.backPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__about_the_roles__["a" /* AboutTheRoles */]);
+    };
+    return HostOthers;
+}());
+HostOthers = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-host-others',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/host-others/host-others.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n        <div class="role_button">\n          <img id="hostothers" class="role_image_small" src="assets/roles-small/hostothers_small.png">\n          <div><h6>Host others</h6>\n          Is about hosting conversations:<br><br>\n          <ul class="role_bullet_list">\n            <li>Calling and inviting</li>\n            <li>Bringing others in</li>\n            <li>Designing</li>\n            <li>Harvesting</li>\n            <br><br>\n            <li>How to be host for others</li>\n            <li>How to host others</li>\n            <li>How to help others to have good, constructive and fulfilling converations and doing a good job that works long term</li>\n          </ul>\n        </div>\n        </div>\n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/host-others/host-others.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+], HostOthers);
+
+//# sourceMappingURL=host-others.js.map
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return The4FoldPath; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
@@ -50,7 +234,7 @@ The4FoldPath = __decorate([
 
 /***/ }),
 
-/***/ 107:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -131,7 +315,7 @@ BuyMoreQuestions = __decorate([
 
 /***/ }),
 
-/***/ 108:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -176,14 +360,14 @@ RestorePurchase = __decorate([
 
 /***/ }),
 
-/***/ 109:
+/***/ 113:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Interaktion; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -226,23 +410,6 @@ Interaktion = __decorate([
 
 /***/ }),
 
-/***/ 118:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 118;
-
-/***/ }),
-
 /***/ 12:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -252,12 +419,12 @@ webpackEmptyAsyncContext.id = 118;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role_select_role__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role_select_role__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_the_roles_be_present_be_present__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_the_roles_co_create_co_create__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_the_roles_engage_engage__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_the_roles_host_others_host_others__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_the_roles_be_present_be_present__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_the_roles_co_create_co_create__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_the_roles_engage_engage__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_the_roles_host_others_host_others__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_email_composer__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -349,6 +516,23 @@ HowToUse = __decorate([
 
 /***/ }),
 
+/***/ 122:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 122;
+
+/***/ }),
+
 /***/ 15:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -358,10 +542,10 @@ HowToUse = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__be_present_be_present__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__co_create_co_create__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__engage_engage__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__host_others_host_others__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__be_present_be_present__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__co_create_co_create__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__engage_engage__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__host_others_host_others__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -414,7 +598,7 @@ AboutTheRoles = __decorate([
 
 /***/ }),
 
-/***/ 160:
+/***/ 164:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -427,191 +611,7 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 160;
-
-/***/ }),
-
-/***/ 203:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BePresent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-//two directories is back ../../
-
-
-var BePresent = (function () {
-    function BePresent(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    BePresent.prototype.howToUsePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
-    };
-    BePresent.prototype.backPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__about_the_roles__["a" /* AboutTheRoles */]);
-    };
-    return BePresent;
-}());
-BePresent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-be-present',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/be-present/be-present.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n        <div class="role_button">\n          <img id="hostyourself" class="role_image_small" src="assets/roles-small/hostyourself_small.png">\n          <div><h6>BE PRESENT</h6>\n          Is about hosting yourself and presensing.<br><br>\n          <ul class="role_bullet_list">\n              <li>Being present with yourself to practice and discipline being you</li>\n              <li>To allow you to go into difficult conversations in a ground way</li>\n              <li>To be a little more consciousness every day</li>\n              <br><br>\n              <li>How to lead yourself</li>\n              <li>How to host yourself and your balance</li>\n              <li>How to be balanced and carm - free of fear and hidden agendas</li>\n            </ul>\n        </div>\n        </div>\n        <!--This can be generalized to not use 4 different pages, but send a list as a data,\n        the breaklines might be an issue however-->\n        \n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/be-present/be-present.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-], BePresent);
-
-//# sourceMappingURL=be-present.js.map
-
-/***/ }),
-
-/***/ 204:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoCreate; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-//two directories is back ../../
-
-
-var CoCreate = (function () {
-    function CoCreate(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    CoCreate.prototype.howToUsePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
-    };
-    CoCreate.prototype.backPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__about_the_roles__["a" /* AboutTheRoles */]);
-    };
-    return CoCreate;
-}());
-CoCreate = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-co-create',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/co-create/co-create.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n        <div class="role_button">\n          <img id="cocreate" class="role_image_small" src="assets/roles-small/cocreate_small.png">\n          <div><h6>Co-Create</h6>\n            Is about being part of a community hosting itself:<br><br>\n            <ul class="role_bullet_list"> \n                <li>To be a commnity of practise</li>\n                <li>To be in learning together</li>\n                <li>To continuously practice to build relationship and skill</li>\n                <br><br>\n                <li>How to host the whole</li>\n                <li>How to keep the overview, focus and attention on the whole</li>\n                <li>How to give space for all to learn something about themselves, each other, to learn and create the best solutions together and to keep both the hight and persistence until you have fullfilled the commen good</li>\n            </ul>\n          </div>\n        </div>\n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/co-create/co-create.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-], CoCreate);
-
-//# sourceMappingURL=co-create.js.map
-
-/***/ }),
-
-/***/ 205:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Engage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-//two directories back is ../../
-
-
-var Engage = (function () {
-    function Engage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    Engage.prototype.howToUsePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
-    };
-    Engage.prototype.backPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__about_the_roles__["a" /* AboutTheRoles */]);
-    };
-    return Engage;
-}());
-Engage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-engage',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/engage/engage.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n        <div class="role_button">\n          <img id="participate" class="role_image_small" src="assets/roles-small/participate_small.png">\n          <div><h6>Engage</h6>\n          Is about being hosted and practice conversation:<br><br>\n          <ul class="role_bullet_list">  \n              <li>To participate as a student, as a listener</li>\n              <li>To be the ever-curious little child inside</li>\n              <li>To be open</li> \n              <br><br>\n              <li>How to host yourself and give room for others to host you</li>\n              <li>How to participate and contribute - being open, curiuos and listening</li>\n            </ul>\n        </div>\n        </div>\n        \n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/engage/engage.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-], Engage);
-
-//# sourceMappingURL=engage.js.map
-
-/***/ }),
-
-/***/ 206:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HostOthers; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-//two directories is back ../../
-
-
-var HostOthers = (function () {
-    function HostOthers(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    HostOthers.prototype.howToUsePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
-    };
-    HostOthers.prototype.backPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__about_the_roles__["a" /* AboutTheRoles */]);
-    };
-    return HostOthers;
-}());
-HostOthers = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-host-others',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/host-others/host-others.html"*/'<ion-header>\n    <ion-navbar>\n      <div id="header_container">\n      <img src="assets/logo.png">\n      <ion-title>The 4 Fold Practise</ion-title>\n      <button ion-button menuToggle>\n       <ion-icon name="menu"></ion-icon>\n     </button>\n    </div>\n    </ion-navbar>\n  </ion-header>\n \n <ion-content padding>\n      <ion-title text-center>About the Roles</ion-title>\n      <br><br>\n        <div class="role_button">\n          <img id="hostothers" class="role_image_small" src="assets/roles-small/hostothers_small.png">\n          <div><h6>Host others</h6>\n          Is about hosting conversations:<br><br>\n          <ul class="role_bullet_list">\n            <li>Calling and inviting</li>\n            <li>Bringing others in</li>\n            <li>Designing</li>\n            <li>Harvesting</li>\n            <br><br>\n            <li>How to be host for others</li>\n            <li>How to host others</li>\n            <li>How to help others to have good, constructive and fulfilling converations and doing a good job that works long term</li>\n          </ul>\n        </div>\n        </div>\n</ion-content>\n      \n      <ion-footer>\n        <ion-toolbar>\n          <div id="footer_container">\n          <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n          <button><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n          <button><ion-icon class="active_footer" name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n          <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n        </div>\n        </ion-toolbar>\n      </ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/about-the-roles/host-others/host-others.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-], HostOthers);
-
-//# sourceMappingURL=host-others.js.map
+webpackEmptyAsyncContext.id = 164;
 
 /***/ }),
 
@@ -744,14 +744,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_role_select_role__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_role_select_role__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__contact_contact__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__contact_contact__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__about_the_roles_about_the_roles__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -868,23 +868,23 @@ HomePage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(206);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(276);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_select_role_select_role__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_select_role_select_role__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_restore_purchase_restore_purchase__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_interaktion_interaktion__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_restore_purchase_restore_purchase__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_interaktion_interaktion__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_the_roles_about_the_roles__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_about_the_roles_be_present_be_present__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_about_the_roles_co_create_co_create__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_about_the_roles_engage_engage__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_about_the_roles_host_others_host_others__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_about_the_roles_be_present_be_present__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_about_the_roles_co_create_co_create__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_about_the_roles_engage_engage__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_about_the_roles_host_others_host_others__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_card_card__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_http__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_email_composer__ = __webpack_require__(43);
@@ -986,17 +986,17 @@ AppModule = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_select_role_select_role__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_select_role_select_role__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_pick_a_card_pick_a_card__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_how_to_use_how_to_use__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_restore_purchase_restore_purchase__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_interaktion_interaktion__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_restore_purchase_restore_purchase__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_interaktion_interaktion__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__ = __webpack_require__(56);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1200,7 +1200,7 @@ PickACard = __decorate([
 
 /***/ }),
 
-/***/ 54:
+/***/ 55:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1281,7 +1281,7 @@ SelectRole = __decorate([
 
 /***/ }),
 
-/***/ 55:
+/***/ 56:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1290,6 +1290,7 @@ SelectRole = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__ = __webpack_require__(278);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1303,9 +1304,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var Contact = (function () {
-    function Contact(navCtrl) {
+    function Contact(navCtrl, callNumber) {
         this.navCtrl = navCtrl;
+        this.callNumber = callNumber;
     }
     Contact.prototype.howToUsePressed = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__["a" /* HowToUse */]);
@@ -1313,15 +1316,22 @@ var Contact = (function () {
     Contact.prototype.backPressed = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
     };
+    Contact.prototype.dialNumber = function () {
+        this.callNumber.callNumber("+45 30 24 84 28", true)
+            .then(function () { return console.log('Launched dialer!'); })
+            .catch(function () { return console.log('Error launching dialer'); });
+    };
     return Contact;
 }());
 Contact = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>Contact us</ion-title>\n  <br><br>\n  Are you curious on more or do you face challenges at work?\n  <br><br>\n  We are here to help you and your organization going from strategy to great and sustainable solutions with great results.\n  <br>\n  The way we do it, is through hosting conversations that matter for everyone.\n  <br><br>\n  Please do not hesitate to contact us. We look forward to hearing from you.\n  <br><br><br>\n  \n  <div id="contact_container">\n    <div>\n    Call us <br>\n    E-mail us <br>\n    Visit us\n  </div>\n    <div id="contact_info">\n      +45 30 24 84 28<br>\n      info@interaktion.dk<br>\n      www.interaktion.dk\n    </div>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>    \n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/contact/contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practise</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>Contact us</ion-title>\n  <br><br>\n  Are you curious on more or do you face challenges at work?\n  <br><br>\n  We are here to help you and your organization going from strategy to great and sustainable solutions with great results.\n  <br>\n  The way we do it, is through hosting conversations that matter for everyone.\n  <br><br>\n  Please do not hesitate to contact us. We look forward to hearing from you.\n  <br><br><br>\n  \n  <div id="contact_container">\n    <div>\n    Call us <br>\n    E-mail us <br>\n    Visit us\n  </div>\n    <div id="contact_info">\n      <div (click)="dialNumber()">+45 30 24 84 28</div><br>\n      info@interaktion.dk<br>\n      www.interaktion.dk\n    </div>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>    \n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/contact/contact.html"*/,
+        providers: [__WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */]]
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */]) === "function" && _b || Object])
 ], Contact);
 
+var _a, _b;
 //# sourceMappingURL=contact.js.map
 
 /***/ })
