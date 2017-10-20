@@ -66,6 +66,7 @@ public shuffleCards() {
       duration: 3000,
       position: 'bottom'
     });
+    toast.present();
 }
 
   cardPressed(card) {
