@@ -6,6 +6,7 @@ import { HowToUse } from '../how-to-use/how-to-use';
 import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 
 import { EmailComposer } from '@ionic-native/email-composer';
+import { InAppPurchase } from '@ionic-native/in-app-purchase';
 
 
 @Component({
@@ -14,8 +15,24 @@ import { EmailComposer } from '@ionic-native/email-composer';
 })
 export class BuyMoreQuestions {
 
-  constructor(public navCtrl: NavController, private emailComposer: EmailComposer) {
+  constructor(public navCtrl: NavController, private emailComposer: EmailComposer, private iap: InAppPurchase) {
 
+  }
+  
+  buy() {
+    this.iap
+    .buy('prod1')
+    .then((data)=> {
+      console.log(data);
+      // {
+      //   transactionId: ...
+      //   receipt: ...
+      //   signature: ...
+      // }
+    })
+    .catch((err)=> {
+      console.log(err);
+    });
   }
 
   noteToSelf() {

@@ -27,7 +27,7 @@ import {HttpModule} from '@angular/http';
 import { EmailComposer } from '@ionic-native/email-composer';
 import { CallNumber } from '@ionic-native/call-number';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
-
+import { InAppPurchase } from '@ionic-native/in-app-purchase';
 
 
 
@@ -80,7 +80,8 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     EmailComposer,
     CallNumber,
-    InAppBrowser
+    InAppBrowser,
+    InAppPurchase
   ]
 })
 export class AppModule {}

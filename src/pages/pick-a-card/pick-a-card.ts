@@ -9,6 +9,8 @@ import { HomePage } from '../home/home';
 import { HowToUse } from '../how-to-use/how-to-use';
 import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 
+import { ToastController } from 'ionic-angular';
+
 
 @Component({
   selector: 'page-pick-a-card',
@@ -17,7 +19,7 @@ import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 export class PickACard {
   @ViewChild('scrollElement') scrollElement: Scroll;
   cards: Array<{role: string, question:string}>;  
-  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http/*, private platform: Platform*/) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http/*, private platform: Platform*/, public toastCtrl: ToastController) {
     //You need to subscribe to the observable and pass a callback that processes emitted values
     //this.getIt().subscribe(val => console.log(val[0].role));
     this.cards = [];
@@ -59,6 +61,11 @@ public shuffleCards() {
       this.cards[j] = temp;
   }
   console.log('done');
+    const toast = this.toastCtrl.create({
+      message: 'Cards have been shuffled',
+      duration: 3000,
+      position: 'bottom'
+    });
 }
 
   cardPressed(card) {
