@@ -15,7 +15,7 @@ import { ToastController } from 'ionic-angular';
 })
 export class Contact {
 
-  constructor(public navCtrl: NavController, private callNumber: CallNumber, public toastCtrl: ToastController) {
+  constructor(public navCtrl: NavController, public callNumber: CallNumber, public toastCtrl: ToastController) {
 
   }
 
@@ -28,7 +28,7 @@ export class Contact {
   }
 
   dialNumber() {
-  this.callNumber.callNumber("+4530248428", true)
+  this.callNumber.callNumber("30248428", true)
   .then(() => console.log('Launched dialer!'))
   .catch(() => console.log('Error launching dialer'));
   }
