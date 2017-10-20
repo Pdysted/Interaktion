@@ -26,6 +26,7 @@ import { Card } from '../pages/card/card';
 import {HttpModule} from '@angular/http';
 import { EmailComposer } from '@ionic-native/email-composer';
 import { CallNumber } from '@ionic-native/call-number';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 
 
@@ -78,7 +79,8 @@ import { CallNumber } from '@ionic-native/call-number';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     EmailComposer,
-    CallNumber
+    CallNumber,
+    InAppBrowser
   ]
 })
 export class AppModule {}
