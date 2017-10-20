@@ -28,6 +28,7 @@ import { EmailComposer } from '@ionic-native/email-composer';
 import { CallNumber } from '@ionic-native/call-number';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { InAppPurchase } from '@ionic-native/in-app-purchase';
+import { Toast } from '@ionic-native/toast';
 
 
 
@@ -81,7 +82,8 @@ import { InAppPurchase } from '@ionic-native/in-app-purchase';
     EmailComposer,
     CallNumber,
     InAppBrowser,
-    InAppPurchase
+    InAppPurchase,
+    Toast
   ]
 })
 export class AppModule {}
