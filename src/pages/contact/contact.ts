@@ -6,6 +6,7 @@ import { HowToUse } from '../how-to-use/how-to-use';
 
 import { CallNumber } from '@ionic-native/call-number';
 import { EmailComposer } from '@ionic-native/email-composer';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 import { ToastController } from 'ionic-angular';
 
@@ -16,7 +17,7 @@ import { ToastController } from 'ionic-angular';
 })
 export class Contact {
 
-  constructor(public navCtrl: NavController, private emailComposer:EmailComposer, public callNumber: CallNumber, public toastCtrl: ToastController) {
+  constructor(public navCtrl: NavController, private emailComposer:EmailComposer, public callNumber: CallNumber, private iab: InAppBrowser, public toastCtrl: ToastController) {
 
   }
 
@@ -44,6 +45,10 @@ export class Contact {
       isHtml: true
     };
      this.emailComposer.open(email);
+  }
+
+  goToWebsite() {
+    const browser = this.iab.create('https://interaktion.dk/');
   }
 
   dialNumber() {
