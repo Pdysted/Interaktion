@@ -25691,6 +25691,8 @@ ion-scroll[scrollX] .scroll-item {
 }
 
 ion-scroll[scrollX] .scroll-item .card-title {
+  font-weight: bold;
+  font-size: x-small;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -25707,8 +25709,11 @@ ion-scroll[scrollX] .scroll-item .card-title {
 }
 
 ion-scroll[scrollX] .scroll-item .card-image {
+  margin-top: 1.5vh;
+  margin-left: 2vw;
   content: url("../assets/bagside.jpeg");
-  background-size: 30vw 30vh;
+  width: 30vw;
+  height: 22vh;
 }
 
 ion-scroll[scrollX] #center_card {

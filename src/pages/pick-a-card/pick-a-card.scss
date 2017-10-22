@@ -18,6 +18,8 @@ ion-scroll[scrollX] {
   .scroll-item {
       background-color: white;
     .card-title {
+      font-weight: bold;
+      font-size: x-small;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -28,9 +30,11 @@ ion-scroll[scrollX] {
     border-radius: 20px;
     display: inline-block;
     .card-image {
+      margin-top: 1.5vh;
+      margin-left: 2vw;
       content: url("../assets/bagside.jpeg");
-      //background-image: url("../assets/bagside.jpeg);
-      background-size: 30vw 30vh;
+      width: 30vw;
+      height: 22vh;
     }
     width: 35vw;
     height: 30vh;
