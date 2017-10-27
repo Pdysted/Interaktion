@@ -36,6 +36,7 @@ $border-orange: #E67A09;
 #header_container {
   display: flex;
   justify-content: space-between;
+  font-family: "Calibri";
   //align-items: baseline;
   img {
     //width: 50px;
@@ -44,7 +45,8 @@ $border-orange: #E67A09;
     height: 8vw;
   }
   ion-title {
-    margin-left: 2vw;
+    margin-left: 1vw;
+    font-size: 2px;
   }
   button {
     ion-icon {

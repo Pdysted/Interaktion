@@ -1,7 +1,6 @@
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { NavController, NavParams, Scroll } from 'ionic-angular';
 import {Http} from '@angular/http';
-//import { Platform } from 'ionic-angular';
 import 'rxjs/add/operator/map';
 
 import { Card } from '../card/card';

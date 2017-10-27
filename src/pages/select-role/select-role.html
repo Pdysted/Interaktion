@@ -6,7 +6,7 @@
         <div>
           <img id="upper_left_arrow" src="assets/arrow.png">
         </div>
-          <div>
+          <div (click)="rolePressed('Host Others')">
           <div>Host Others</div>
           <div class="image_padding">
           <img class="role_image" src="assets/roles/hostothers.png">
@@ -17,13 +17,13 @@
         </div>
       </div>
       <div id ="middle_row">
-          <div class="middle_container">
+          <div (click)="rolePressed('Co-Create')" class="middle_container">
           <div>Co-Create</div>
           <div id="left_role" class="image_padding">
           <img class="role_image" src="assets/roles/cocreate.png">
           </div>
         </div>
-          <div class="middle_container">
+          <div (click)="rolePressed('Engage')" class="middle_container">
           <div>Engage</div>
           <div id="right_role" class="image_padding">
           <img class="role_image" src="assets/roles/participate.png">
@@ -35,7 +35,7 @@
               <img id="lower_left_arrow" src="assets/arrow.png">
             </div>
           <div>
-          <div class="image_padding">
+          <div (click)="rolePressed('Be Present')" class="image_padding">
           <img class="role_image" src="assets/roles/hostyourself.png">
           </div>
           <div>Be Present</div>

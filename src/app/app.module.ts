@@ -22,6 +22,7 @@ import { CoCreate } from '../pages/about-the-roles/co-create/co-create';
 import { Engage } from '../pages/about-the-roles/engage/engage';
 import { HostOthers } from '../pages/about-the-roles/host-others/host-others';
 import { Card } from '../pages/card/card';
+import { SelectRoleCard } from '../pages/select-role/select-role-card/select-role-card';
 
 import {HttpModule} from '@angular/http';
 import { EmailComposer } from '@ionic-native/email-composer';
@@ -49,7 +50,8 @@ import { Toast } from '@ionic-native/toast';
     CoCreate,
     Engage,
     HostOthers,
-    Card
+    Card,
+    SelectRoleCard 
   ],
   imports: [
     BrowserModule,
@@ -73,7 +75,8 @@ import { Toast } from '@ionic-native/toast';
     CoCreate,
     Engage,
     HostOthers,
-    Card
+    Card,
+    SelectRoleCard
   ],
   providers: [
     StatusBar,

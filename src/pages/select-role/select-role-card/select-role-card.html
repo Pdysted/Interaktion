@@ -1,0 +1,23 @@
+<ion-content padding>
+    <br><br><br>
+    <ion-title text-center>{{selectedRole}}</ion-title>
+    <br><br>
+    <div #cardContainer id="card_container" class="none">
+        <div id="{{role}}">
+            <img class="card-image" src="assets/roles/{{imgUrl}}.png">
+            <div class="card-title">{{selectedCard.question}}</div>
+        </div>
+    </div>
+    <button class="button button-assertive" (click)="nextCard()">Spin</button>
+</ion-content>
+        
+<ion-footer>
+    <ion-toolbar>
+        <div id="footer_container">
+            <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>
+            <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>
+            <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>
+            <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>
+        </div>
+    </ion-toolbar>
+</ion-footer>

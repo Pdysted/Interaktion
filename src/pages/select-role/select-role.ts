@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { HomePage } from '../home/home';
+import { SelectRoleCard } from './select-role-card/select-role-card';
 import { HowToUse } from '../how-to-use/how-to-use';
 import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 
@@ -16,6 +17,14 @@ export class SelectRole {
 
   constructor(public navCtrl: NavController, private emailComposer: EmailComposer) {
 
+  }
+
+  rolePressed(role) {
+    console.log(role);
+    this.navCtrl.push(SelectRoleCard, {
+      role: role
+    }
+    );
   }
 
   howToUsePressed () {

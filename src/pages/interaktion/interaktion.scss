@@ -1,6 +1,15 @@
+page-interaktion {
+  margin-top: 5vh;
+}
+
 #center_text {
+  display: flex;
+  flex-direction: column;
   color: $border-orange;
   font-size: large;
+  div {
+    align-self: center;
+  }
 }
 
 #aligner {
