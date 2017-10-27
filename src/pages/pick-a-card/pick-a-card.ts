@@ -60,7 +60,7 @@ public shuffleCards() {
       this.cards[j] = temp;
   }
   console.log('done');
-  this.toast.show('Cards have been shuffled', '5000', 'bottom').subscribe(
+  this.toast.show('Cards have been shuffled', '5000', 'center').subscribe(
     toast => {
       console.log(toast);
     }
