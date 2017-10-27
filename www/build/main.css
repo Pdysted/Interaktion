@@ -25912,9 +25912,28 @@ ion-scroll[scrollX] #center_card {
   justify-content: center;
 }
 
+.role_container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .role_image {
   width: 23vw;
   height: 10vh;
+  z-index: -1;
+}
+
+.role_text {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 
 #footer_container {

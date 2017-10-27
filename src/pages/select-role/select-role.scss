@@ -69,9 +69,19 @@
   justify-content: center;
 }
 
+.role_container {
+  display: flex;
+  flex-direction: column;
+}
+
 .role_image {
   width: 23vw;
   height:10vh;
+  z-index: -1;
+}
+
+.role_text {
+  align-self: center;
 }
 
 

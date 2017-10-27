@@ -52,7 +52,7 @@ export class Contact {
   }
 
   dialNumber() {
-  this.callNumber.callNumber("30248428", true)
+  this.callNumber.callNumber("30248428", false)
   .then(() => console.log('Launched dialer!'))
   .catch(() => console.log('Error launching dialer'));
   }
