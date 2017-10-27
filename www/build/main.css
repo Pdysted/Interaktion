@@ -25475,6 +25475,11 @@ ion-navbar.toolbar {
 /*#contact_info {
   //margin-left: 33vw;
 }*/
+a {
+  text-decoration: none;
+  color: #E67A09;
+}
+
 #footer_container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -25516,6 +25521,10 @@ ion-title {
 }
 
 .menu_button_blue {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #6ab1af;
   color: white;
   padding-top: 1vh;
@@ -25535,6 +25544,11 @@ ion-title {
   margin-top: 1vh;
   width: 50vw;
   border-radius: 12px;
+}
+
+.center_button_text {
+  width: inherit;
+  text-align: center;
 }
 
 #footer_container {
@@ -25581,6 +25595,7 @@ ion-title {
   padding-bottom: 1vh;
   padding-left: 4vw;
   padding-right: 10vw;
+  border-radius: 12px;
 }
 
 #bitt {

@@ -1,15 +1,18 @@
-
 #contact_container {
   color:$border-orange;
   font-size: large;
   display: flex;
   justify-content: space-between;
-  //align-items: flex-end;
 }
 
 /*#contact_info {
   //margin-left: 33vw;
 }*/
+
+a {
+  text-decoration: none;
+  color: $border-orange;
+}
 
 #footer_container {
   display: flex;

@@ -22,6 +22,7 @@
 }
 
 .menu_button_blue {
+  display: flex;
   background-color: $light-blue;
   color: white;
   padding-top: 1vh;
@@ -43,6 +44,12 @@
   width: 50vw;
   //Should be using a more responsive sizing unit
   border-radius: 12px;
+
+}
+
+.center_button_text {
+  width:inherit;
+  text-align: center;
 }
 
 #footer_container {
