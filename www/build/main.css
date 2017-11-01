@@ -25630,10 +25630,9 @@ ion-icon {
   -webkit-transform: scale(-1, 1);
 }
 
-page-interaktion {
+/*page-interaktion {
   margin-top: 5vh;
-}
-
+}*/
 #center_text {
   display: -webkit-box;
   display: -webkit-flex;
