@@ -69,7 +69,7 @@ public shuffleCards() {
 
   cardPressed(card) {
     console.log(card.role + "\n" + card.question);
-    this.navCtrl.push(Card, {
+    this.navCtrl.setRoot(Card, {
       card: card
     }
     );

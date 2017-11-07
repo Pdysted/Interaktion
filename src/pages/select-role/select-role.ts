@@ -21,7 +21,7 @@ export class SelectRole {
 
   rolePressed(role) {
     console.log(role);
-    this.navCtrl.push(SelectRoleCard, {
+    this.navCtrl.setRoot(SelectRoleCard, {
       role: role
     }
     );

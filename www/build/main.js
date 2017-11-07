@@ -1305,7 +1305,7 @@ var SelectRole = (function () {
     }
     SelectRole.prototype.rolePressed = function (role) {
         console.log(role);
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__select_role_card_select_role_card__["a" /* SelectRoleCard */], {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__select_role_card_select_role_card__["a" /* SelectRoleCard */], {
             role: role
         });
     };
@@ -1437,7 +1437,7 @@ var PickACard = (function () {
     };
     PickACard.prototype.cardPressed = function (card) {
         console.log(card.role + "\n" + card.question);
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__card_card__["a" /* Card */], {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__card_card__["a" /* Card */], {
             card: card
         });
     };
@@ -1474,15 +1474,16 @@ var PickACard = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('scrollElement'),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */]) === "function" && _a || Object)
 ], PickACard.prototype, "scrollElement", void 0);
 PickACard = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-pick-a-card',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="pick_a_card_style">\n  <div id="aligner">\n    <h3>Pick a card</h3>\n  </div>\n  <ion-scroll #scrollElement scrollX="true" (click)="backPressed()">\n  <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">\n  <div class="card-title">The 4 Fold Practice</div>\n  <img class="card-image" src="assets/bagside.jpeg">\n  </div>\n  </ion-scroll>\n  <div id="pointer"><div></div></div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="shuffleCards()"><ion-icon name="shuffle"><br><div class="footer_button_text">Shuffle Cards</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/, __WEBPACK_IMPORTED_MODULE_7__ionic_native_toast__["a" /* Toast */]])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/ !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_7__ionic_native_toast__["a" /* Toast */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__ionic_native_toast__["a" /* Toast */]) === "function" && _e || Object])
 ], PickACard);
 
+var _a, _b, _c, _d, _e;
 //# sourceMappingURL=pick-a-card.js.map
 
 /***/ }),
