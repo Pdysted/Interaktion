@@ -30,6 +30,9 @@ import { CallNumber } from '@ionic-native/call-number';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { InAppPurchase } from '@ionic-native/in-app-purchase';
 import { Toast } from '@ionic-native/toast';
+import { File } from '@ionic-native/file';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -56,6 +59,7 @@ import { Toast } from '@ionic-native/toast';
   imports: [
     BrowserModule,
     HttpModule,
+    BrowserAnimationsModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],

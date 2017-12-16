@@ -9,25 +9,37 @@ import { HowToUse } from '../how-to-use/how-to-use';
 import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 
 import { Toast } from '@ionic-native/toast';
+import { trigger, state, style, transition, animate } from '@angular/animations'
+import { File } from '@ionic-native/file';
 
 
 @Component({
   selector: 'page-pick-a-card',
-  templateUrl: 'pick-a-card.html'
+  templateUrl: 'pick-a-card.html',
+  animations: [
+    trigger('myvisibility', [
+      state('visible', style({
+        opacity: 1,
+      })),
+      state('invisible', style({
+        class: 'none',
+        opacity: 1
+      })),
+      transition('* => *', animate('.5s'))
+    ])
+  ]
 })
 export class PickACard {
   @ViewChild('scrollElement') scrollElement: Scroll;
   cards: Array<{role: string, question:string}>;  
-  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http/*, private platform: Platform*/, private toast: Toast) {
+  visibleState = 'visible';
+  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http/*, private platform: Platform*/, private toast: Toast, private file: File) {
     //You need to subscribe to the observable and pass a callback that processes emitted values
     //this.getIt().subscribe(val => console.log(val[0].role));
     this.cards = [];
-    this.getCards().subscribe(val =>
-      this.populateCards(val));
+    this.getCards().subscribe(val => this.populateCards(val));
 
   }
-
-
 
   public getCards() {
         var url = 'assets/data/questions.json'; 
@@ -35,7 +47,7 @@ export class PickACard {
         //if (this.platform.is('cordova') && this.platform.is('android')) {
         //    url = "/android_asset/www/" + url;
         //}
-    
+        console.log(this.http.get(url));
         return this.http.get(url)
             .map((response) => {
               return response.json();
@@ -60,11 +72,12 @@ public shuffleCards() {
       this.cards[j] = temp;
   }
   console.log('done');
-  this.toast.show('Cards have been shuffled', '5000', 'center').subscribe(
+  /*this.toast.show('Cards have been shuffled', '5000', 'center').subscribe(
     toast => {
       console.log(toast);
     }
-  );
+  );*/
+    this.visibleState = (this.visibleState == 'visible') ? 'invisible' : 'visible';
 }
 
   cardPressed(card) {
@@ -84,12 +97,12 @@ public shuffleCards() {
   }
 
   backPressed() {
-    //this.navCtrl.setRoot(HomePage);
+    this.navCtrl.setRoot(HomePage);
 
     //320 should be replaced with device width 
     //Maybe change the centerEnd to half the card size 
     //To move it closer to the center when scaling it 
-    var centerStart = 320 * 0.30;
+    /*var centerStart = 320 * 0.30;
     var centerEnd = 320 * 0.47;
     var scrollLeft = this.scrollElement._scrollContent.nativeElement.scrollLeft;
     console.log(scrollLeft);
@@ -103,7 +116,7 @@ public shuffleCards() {
            console.log(element.offsetLeft + " < " + (scrollLeft + centerEnd));
       }
       //console.log(elements[i]);
-    }
+    }*/
   }
 
 

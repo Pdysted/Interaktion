@@ -11,6 +11,12 @@
 }
 
 ion-scroll[scrollX] {
+  -webkit-animation: slideIn ease-in 1;
+  animation: slideIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
   white-space: nowrap;
   width: 100vw;
   height:44vh;
@@ -55,16 +61,28 @@ ion-scroll[scrollX] {
 
 }
 
-#pointer {
-  //Left like this for testing purposes will be removed later on in production
-  margin-left: 30%;
-  background-color: #8492A6;
-  width: 47%;
-  height:6vh;
-  border-radius: 8%;
-}
-
 #footer_container {
   display: flex;
   justify-content: space-around;
+}
+
+.animationSlide {
+  animation-name: slideInSmooth;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translate3d(100%,0,0);
+  }
+ 
+  50% {
+    -webkit-transform: translate3d(50,0,0);
+  }
+ 
+  100% {
+    -webkit-transform: translate3d(0,0,0);
+  }
 }
