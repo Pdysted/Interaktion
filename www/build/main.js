@@ -1073,13 +1073,15 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_in_app_browser__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_in_app_purchase__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_toast__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__angular_platform_browser_animations__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__angular_platform_browser_animations__ = __webpack_require__(286);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1138,7 +1140,7 @@ AppModule = __decorate([
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_22__angular_http__["b" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_28__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+            __WEBPACK_IMPORTED_MODULE_29__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */]),
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
@@ -1169,7 +1171,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_24__ionic_native_call_number__["a" /* CallNumber */],
             __WEBPACK_IMPORTED_MODULE_25__ionic_native_in_app_browser__["a" /* InAppBrowser */],
             __WEBPACK_IMPORTED_MODULE_26__ionic_native_in_app_purchase__["a" /* InAppPurchase */],
-            __WEBPACK_IMPORTED_MODULE_27__ionic_native_toast__["a" /* Toast */]
+            __WEBPACK_IMPORTED_MODULE_27__ionic_native_toast__["a" /* Toast */],
+            __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__["a" /* File */]
         ]
     })
 ], AppModule);
@@ -1381,6 +1384,7 @@ SelectRole = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_the_roles_about_the_roles__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_toast__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_animations__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_file__ = __webpack_require__(285);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1400,29 +1404,53 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var PickACard = (function () {
-    function PickACard(navCtrl, navParams, http /*, private platform: Platform*/, toast) {
-        var _this = this;
+    function PickACard(navCtrl, navParams, http /*, private platform: Platform*/, toast, file) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.http = http; /*, private platform: Platform*/
         this.toast = toast;
+        this.file = file;
         this.visibleState = 'visible';
         //You need to subscribe to the observable and pass a callback that processes emitted values
         //this.getIt().subscribe(val => console.log(val[0].role));
         this.cards = [];
-        this.getCards().subscribe(function (val) { return _this.populateCards(val); });
+        //this.getCards().subscribe(val => this.populateCards(val));
+        this.getCards();
+        this.cardsResponse = "";
     }
     PickACard.prototype.getCards = function () {
+        var _this = this;
         var url = 'assets/data/questions.json';
         //if (this.platform.is('cordova') && this.platform.is('android')) {
         //    url = "/android_asset/www/" + url;
         //}
-        console.log(this.http.get(url));
-        return this.http.get(url)
+        /*return this.http.get(url)
+        .map((response) => {
+          return response.json();
+        });*/
+        var x = this.http.get(url).subscribe(function (val) { return console.log(val); });
+        console.log(x);
+        this.http.get(url)
             .map(function (response) {
             return response.json();
-        });
+        }).subscribe(function (response) { return _this.cardsCallback(response, 1); }, function (err) { return console.log("file was not found"); });
+        this.http.get(url + "1")
+            .map(function (response) {
+            return response.json();
+        }).subscribe(function (response) { return _this.cardsCallback(response, 2); }, function (err) { return console.log("file was not found"); });
+        this.http.get(url + "1")
+            .map(function (response) {
+            return response.json();
+        }).subscribe(function (response) { return _this.cardsCallback(response, 3); }, function (err) { return _this.populateCards(_this.cardsResponse); });
+    };
+    PickACard.prototype.cardsCallback = function (response, call) {
+        this.cardsResponse += response;
+        console.log("Fo" + this.cardsResponse);
+        if (call == 3) {
+            this.populateCards(response);
+        }
     };
     PickACard.prototype.populateCards = function (val) {
         for (var i = 0; i < val.length; i++) {
@@ -1505,10 +1533,10 @@ PickACard = __decorate([
             ])
         ]
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/ !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_8__ionic_native_toast__["a" /* Toast */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__ionic_native_toast__["a" /* Toast */]) === "function" && _e || Object])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/ !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_8__ionic_native_toast__["a" /* Toast */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__ionic_native_toast__["a" /* Toast */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_10__ionic_native_file__["a" /* File */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__ionic_native_file__["a" /* File */]) === "function" && _f || Object])
 ], PickACard);
 
-var _a, _b, _c, _d, _e;
+var _a, _b, _c, _d, _e, _f;
 //# sourceMappingURL=pick-a-card.js.map
 
 /***/ }),

@@ -33,26 +33,51 @@ export class PickACard {
   @ViewChild('scrollElement') scrollElement: Scroll;
   cards: Array<{role: string, question:string}>;  
   visibleState = 'visible';
+  cardsResponse;
   constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http/*, private platform: Platform*/, private toast: Toast, private file: File) {
     //You need to subscribe to the observable and pass a callback that processes emitted values
     //this.getIt().subscribe(val => console.log(val[0].role));
     this.cards = [];
-    this.getCards().subscribe(val => this.populateCards(val));
-
+    //this.getCards().subscribe(val => this.populateCards(val));
+    this.getCards();
+    this.cardsResponse = "";
   }
 
   public getCards() {
         var url = 'assets/data/questions.json'; 
-
         //if (this.platform.is('cordova') && this.platform.is('android')) {
         //    url = "/android_asset/www/" + url;
         //}
-        console.log(this.http.get(url));
-        return this.http.get(url)
-            .map((response) => {
-              return response.json();
-            });
+
+        /*return this.http.get(url)
+        .map((response) => {
+          return response.json();
+        });*/
+
+        //Fuck this shit
+        var x = this.http.get(url).subscribe(val => console.log(val));
+        console.log(x);
+        this.http.get(url)
+        .map((response) => {
+          return response.json();
+        }).subscribe(response => this.cardsCallback(response, 1), err => console.log("file was not found"));
+        this.http.get(url+"1")
+        .map((response) => {
+          return response.json();
+        }).subscribe(response => this.cardsCallback(response, 2), err => console.log("file was not found"));
+        this.http.get(url+"1")
+        .map((response) => {
+          return response.json();
+        }).subscribe(response => this.cardsCallback(response, 3), err => this.populateCards(this.cardsResponse));
     }
+
+  public cardsCallback(response, call) {
+      this.cardsResponse += response;
+      console.log("Fo" + this.cardsResponse);
+      if (call == 3) {
+        this.populateCards(response);
+      }
+  }
 
   public populateCards(val) {
     for (let i = 0; i < val.length; i++) {

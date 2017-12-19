@@ -90,7 +90,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CallNumber,
     InAppBrowser,
     InAppPurchase,
-    Toast
+    Toast,
+    File
   ]
 })
 export class AppModule {}
