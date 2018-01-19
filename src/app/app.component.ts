@@ -20,7 +20,6 @@ import { Contact } from '../pages/contact/contact';
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-
   rootPage = HomePage;
   pages: Array<{title: string, component: any}>;
 

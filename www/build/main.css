@@ -25800,12 +25800,30 @@ ion-scroll[scrollX] #center_card {
 @-webkit-keyframes slideIn {
   0% {
     -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
   }
   50% {
     -webkit-transform: translate3d(50, 0, 0);
+    transform: translate3d(50, 0, 0);
   }
   100% {
     -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(50, 0, 0);
+    transform: translate3d(50, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 

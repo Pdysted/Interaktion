@@ -1,6 +1,6 @@
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { NavController, NavParams, Scroll } from 'ionic-angular';
-import {Http} from '@angular/http';
+import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 import { Card } from '../card/card';
@@ -11,6 +11,8 @@ import { AboutTheRoles } from '../about-the-roles/about-the-roles';
 import { Toast } from '@ionic-native/toast';
 import { trigger, state, style, transition, animate } from '@angular/animations'
 import { File } from '@ionic-native/file';
+import { FilePath } from '@ionic-native/file-path';
+import { Platform } from 'ionic-angular';
 
 
 @Component({
@@ -34,12 +36,12 @@ export class PickACard {
   cards: Array<{role: string, question:string}>;  
   visibleState = 'visible';
   cardsResponse;
-  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http/*, private platform: Platform*/, private toast: Toast, private file: File) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http, private toast: Toast, private file: File, private filePath: FilePath, private platform: Platform) {
     //You need to subscribe to the observable and pass a callback that processes emitted values
     //this.getIt().subscribe(val => console.log(val[0].role));
     this.cards = [];
-    //this.getCards().subscribe(val => this.populateCards(val));
-    this.getCards();
+    this.getCards().subscribe(val => this.populateCards(val));
+    //this.getCards();
     this.cardsResponse = "";
   }
 
@@ -49,14 +51,16 @@ export class PickACard {
         //    url = "/android_asset/www/" + url;
         //}
 
-        /*return this.http.get(url)
+        return this.http.get(url)
         .map((response) => {
           return response.json();
-        });*/
+        });
+        //this.checkFile();
 
-        //Fuck this shit
-        var x = this.http.get(url).subscribe(val => console.log(val));
-        console.log(x);
+        
+
+        
+        /*console.log(x);
         this.http.get(url)
         .map((response) => {
           return response.json();
@@ -68,7 +72,31 @@ export class PickACard {
         this.http.get(url+"1")
         .map((response) => {
           return response.json();
-        }).subscribe(response => this.cardsCallback(response, 3), err => this.populateCards(this.cardsResponse));
+        }).subscribe(response => this.cardsCallback(response, 3), err => this.populateCards(this.cardsResponse));*/
+    }
+
+  public checkFile() {
+    this.file.checkFile('assets/data/', 'questions.json').then(val => this.toast.show("True ", '5000', 'center').subscribe(
+      toast => {
+        console.log(toast);
+      }));
+    /*this.file.resolveLocalFilesystemUrl('assets/data/questions.json').then(value => 
+    this.toast.show("worked? : " , '5000', 'center').subscribe(
+      toast => {
+        console.log(toast);
+      }
+      )).catch((val) => this.toast.show("error? " + this.file.tempDirectory, '5000', 'center').subscribe(
+        toast => {
+          console.log(toast);
+        })
+        );*/
+      
+      /*}).catch(err => this.toast.show("error? Not ready? " + err, '5000', 'center').subscribe(
+        toast => {
+          console.log(toast);
+        })
+        );*/
+        
     }
 
   public cardsCallback(response, call) {
@@ -97,11 +125,11 @@ public shuffleCards() {
       this.cards[j] = temp;
   }
   console.log('done');
-  /*this.toast.show('Cards have been shuffled', '5000', 'center').subscribe(
+  this.toast.show('Cards have been shuffled', '5000', 'center').subscribe(
     toast => {
       console.log(toast);
     }
-  );*/
+    );
     this.visibleState = (this.visibleState == 'visible') ? 'invisible' : 'visible';
 }
 
@@ -114,7 +142,8 @@ public shuffleCards() {
   }
 
   howToUsePressed () {
-    this.navCtrl.setRoot(HowToUse);
+    this.checkFile();
+    //this.navCtrl.setRoot(HowToUse);
   }
 
   openAboutTheRoles() {

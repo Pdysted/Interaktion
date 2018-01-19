@@ -20,7 +20,6 @@ export class SelectRole {
   }
 
   rolePressed(role) {
-    console.log(role);
     this.navCtrl.setRoot(SelectRoleCard, {
       role: role
     }
@@ -35,17 +34,18 @@ export class SelectRole {
     this.emailComposer.isAvailable().then((available: boolean) =>{
       if(available) {
         let email = {
-          to: 'max@mustermann.de',
+          //see if emailComposer has access to the users own email
+          to: 'example@example.com',
           cc: '',
-          bcc: ['john@doe.com', 'jane@doe.com'],
+          bcc: [],
           attachments: [
             //'file://img/logo.png',
             //'res://icon.png',
             //'base64:icon.png//iVBORw0KGgoAAAANSUhEUg...',
             //'file://README.pdf'
           ],
-          subject: 'Test email emne',
-          body: 'Test email brødtekst',
+          subject: 'Note to self',
+          body: '',
           isHtml: true
         };
         //Now we know we can send

@@ -28,17 +28,17 @@ export class HowToUse {
     this.emailComposer.isAvailable().then((available: boolean) =>{
       if(available) {
         let email = {
-          to: 'max@mustermann.de',
+          to: 'info@interaktion.dk',
           cc: '',
-          bcc: ['john@doe.com', 'jane@doe.com'],
+          bcc: [],
           attachments: [
             //'file://img/logo.png',
             //'res://icon.png',
             //'base64:icon.png//iVBORw0KGgoAAAANSUhEUg...',
             //'file://README.pdf'
           ],
-          subject: 'Test email emne',
-          body: 'Test email brødtekst',
+          subject: 'How to Use - Interaktion App',
+          body: '',
           isHtml: true
         };
         //Now we know we can send

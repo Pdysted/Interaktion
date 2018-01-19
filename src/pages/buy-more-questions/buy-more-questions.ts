@@ -18,8 +18,23 @@ export class BuyMoreQuestions {
   constructor(public navCtrl: NavController, private emailComposer: EmailComposer, private iap: InAppPurchase) {
 
   }
+
+  getProducts() {
+  this.iap.getProducts(['prod1', 'prod2'])
+    .then((products) => {
+      console.log(products);
+      //  [{ productId: 'com.yourapp.prod1', 
+      //'title': '...', 
+      //description: '...', 
+      //price: '...' }, ...]
+    })
+    .catch((err) => {
+    console.log(err);
+    });
+  }
   
-  buy() {
+  
+  buyQuestions1() {
     this.iap
     .buy('prod1')
     .then((data)=> {

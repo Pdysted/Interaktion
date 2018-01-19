@@ -31,6 +31,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { InAppPurchase } from '@ionic-native/in-app-purchase';
 import { Toast } from '@ionic-native/toast';
 import { File } from '@ionic-native/file';
+import { FilePath } from '@ionic-native/file-path';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -91,7 +92,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     InAppBrowser,
     InAppPurchase,
     Toast,
-    File
+    File,
+    FilePath
   ]
 })
 export class AppModule {}

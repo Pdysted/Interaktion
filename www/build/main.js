@@ -6,9 +6,9 @@ webpackJsonp([0],{
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BePresent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -52,9 +52,9 @@ BePresent = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoCreate; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -98,9 +98,9 @@ CoCreate = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Engage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -144,9 +144,9 @@ Engage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HostOthers; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_the_roles__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -184,121 +184,15 @@ HostOthers = __decorate([
 
 /***/ }),
 
-/***/ 11:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HowToUse; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role_select_role__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pick_a_card_pick_a_card__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_the_roles_be_present_be_present__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_the_roles_co_create_co_create__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_the_roles_engage_engage__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_the_roles_host_others_host_others__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_email_composer__ = __webpack_require__(32);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-var HowToUse = (function () {
-    function HowToUse(navCtrl, emailComposer) {
-        this.navCtrl = navCtrl;
-        this.emailComposer = emailComposer;
-    }
-    HowToUse.prototype.noteToSelf = function () {
-        var _this = this;
-        this.emailComposer.isAvailable().then(function (available) {
-            if (available) {
-                var email_1 = {
-                    to: 'max@mustermann.de',
-                    cc: '',
-                    bcc: ['john@doe.com', 'jane@doe.com'],
-                    attachments: [],
-                    subject: 'Test email emne',
-                    body: 'Test email brødtekst',
-                    isHtml: true
-                };
-                //Now we know we can send
-                _this.emailComposer.open(email_1);
-            }
-        });
-        var email = {
-            to: 'max@mustermann.de',
-            cc: '',
-            bcc: ['john@doe.com', 'jane@doe.com'],
-            attachments: [],
-            subject: 'Test email emne',
-            body: 'Test email brødtekst',
-            isHtml: true
-        };
-        this.emailComposer.open(email);
-    };
-    HowToUse.prototype.bePresentPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__about_the_roles_be_present_be_present__["a" /* BePresent */]);
-    };
-    HowToUse.prototype.coCreatePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__about_the_roles_co_create_co_create__["a" /* CoCreate */]);
-    };
-    HowToUse.prototype.engagePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__about_the_roles_engage_engage__["a" /* Engage */]);
-    };
-    HowToUse.prototype.hostOthersPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__about_the_roles_host_others_host_others__["a" /* HostOthers */]);
-    };
-    HowToUse.prototype.theRolesPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
-    };
-    HowToUse.prototype.selectRolePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__select_role_select_role__["a" /* SelectRole */]);
-    };
-    HowToUse.prototype.pickACardPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__pick_a_card_pick_a_card__["a" /* PickACard */]);
-    };
-    HowToUse.prototype.backPressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    return HowToUse;
-}());
-HowToUse = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-how-to-use',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>How to Use</ion-title>\n  <br>\n  This app is made to help you uncover your true power to hold your ground\n  and not be afraid of change.\n  <br><br>\n  It is thought of as a conscious practise where you can explore\n  and reflect upon questions in four group or roles: Host Yourself,\n  Participate, Host Others, and Co-create.\n  <br><br>\n  <div id="roles_container">\n    <img id="hostyourself" class="role_image_small" (click)="bePresentPressed()" src="assets/roles-small/hostyourself_small.png">\n    <img id="participate" class="role_image_small" (click)="engagePressed()" src="assets/roles-small/participate_small.png">\n    <img id="hostothers" class="role_image_small" (click)="hostOthersPressed()" src="assets/roles-small/hostothers_small.png">\n    <img id="cocreate" class="role_image_small" (click)="coCreatePressed()" src="assets/roles-small/cocreate_small.png">\n  </div>\n  <br><br>\n  You can explore one role at a time or you can choose a card to answer a question\n  you can hold right there, trusting the serendipity.\n  <br><br>\n  Please, explore, learn and enjoy!\n  <br><br><br>\n  <div id="button_container">\n  <button ion-button class="green_button" (click)="selectRolePressed()">Select a Role</button> \n  <button ion-button class="green_button" (click)="pickACardPressed()">Pick a Card</button>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="bitt">\n    <button><ion-icon class="active_footer" name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="theRolesPressed()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_email_composer__["a" /* EmailComposer */]])
-], HowToUse);
-
-//# sourceMappingURL=how-to-use.js.map
-
-/***/ }),
-
 /***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return The4FoldPath; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -346,12 +240,12 @@ The4FoldPath = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BuyMoreQuestions; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_purchase__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_purchase__ = __webpack_require__(215);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -374,7 +268,20 @@ var BuyMoreQuestions = (function () {
         this.emailComposer = emailComposer;
         this.iap = iap;
     }
-    BuyMoreQuestions.prototype.buy = function () {
+    BuyMoreQuestions.prototype.getProducts = function () {
+        this.iap.getProducts(['prod1', 'prod2'])
+            .then(function (products) {
+            console.log(products);
+            //  [{ productId: 'com.yourapp.prod1', 
+            //'title': '...', 
+            //description: '...', 
+            //price: '...' }, ...]
+        })
+            .catch(function (err) {
+            console.log(err);
+        });
+    };
+    BuyMoreQuestions.prototype.buyQuestions1 = function () {
         this.iap
             .buy('prod1')
             .then(function (data) {
@@ -432,9 +339,10 @@ BuyMoreQuestions = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-buy-more-questions',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/buy-more-questions/buy-more-questions.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n<ion-title text-center>Buy More Questions</ion-title>\n<br>\nWe hope you enjoy The 4 Fold Practice and find the questions useful to reflect upon.\n<br><br>\nTo help you taking your practice even further, you can get more questions:\n<br><br>\n<div id="aligner">\n<div>Buy 5 questions more pr. role:</div>\n<button ion-button round class="purchase_button">20 Questions for 25 DKK</button>\n<br>\n<div>Buy 13 questions more pr. role:</div>\n<button ion-button round class="purchase_button">52 Questions for 49 DKK</button>\n</div>\n<br><br>  \n<b>Donation</b>\n<br>\n  To honor the founders and practioners that developed the The 4 Fold Path, a donation of 1 DKK will be given time you buy cards. \n  The donation will be granted to a project, person or fund within the work of Art of Hosting. \n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/buy-more-questions/buy-more-questions.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__["a" /* EmailComposer */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_purchase__["a" /* InAppPurchase */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__["a" /* EmailComposer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__["a" /* EmailComposer */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_purchase__["a" /* InAppPurchase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_purchase__["a" /* InAppPurchase */]) === "function" && _c || Object])
 ], BuyMoreQuestions);
 
+var _a, _b, _c;
 //# sourceMappingURL=buy-more-questions.js.map
 
 /***/ }),
@@ -445,9 +353,9 @@ BuyMoreQuestions = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RestorePurchase; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -490,10 +398,10 @@ RestorePurchase = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Interaktion; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__how_to_use_how_to_use__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -525,12 +433,118 @@ var Interaktion = (function () {
 }());
 Interaktion = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-interaktion',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/interaktion/interaktion.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <br>\n   <ion-title text-center>Interaktion</ion-title>\n   <br><br>\n   INTERAKTION is a consultancy and coaching company rooted in Denmark, \n   hence the Danish name which means interaction.\n   <br><br>\n   <div id="center_text">\n      <div>We have one core skill:</div>\n      <div>Building bridges between</div> \n      <div>people, proces and strategy.</div>\n  </div> \n  <br>\n  Our primary work is on organisational development, corporate communications and leadership development in Denmark as well as abroad.\n  <br><br>\n  We naturally see the opportunities and create coherency for both organisation and employees at strategical, \n  tactical and operational levels, especially working cross-functional and multi cultural.\n  <br><br>\n  <div id="aligner">\n  <button ion-button round id="contact_button" (click)="contactPressed()">Contact</button>\n</div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>    \n  </div>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/interaktion/interaktion.html"*/
+        selector: 'page-interaktion',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/interaktion/interaktion.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <br>\n   <ion-title text-center>Interaktion</ion-title>\n   <br><br>\n   INTERAKTION is a consultancy and coaching company rooted in Denmark, \n   hence the Danish name which means interaction.\n   <br><br>\n   <div id="center_text">\n      <div>We have one core skill:</div>\n      <div>Building bridges between people,</div> \n      <div>proces and strategy.</div>\n  </div> \n  <br>\n  Our primary work is on organisational development, corporate communications and leadership development in Denmark as well as abroad.\n  <br><br>\n  We naturally see the opportunities and create coherency for both organisation and employees at strategical, \n  tactical and operational levels, especially working cross-functional and multi cultural.\n  <br><br>\n  <div id="aligner">\n  <button ion-button round id="contact_button" (click)="contactPressed()">Contact</button>\n</div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>    \n  </div>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/interaktion/interaktion.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], Interaktion);
 
 //# sourceMappingURL=interaktion.js.map
+
+/***/ }),
+
+/***/ 12:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HowToUse; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role_select_role__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pick_a_card_pick_a_card__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_the_roles_be_present_be_present__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_the_roles_co_create_co_create__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_the_roles_engage_engage__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_the_roles_host_others_host_others__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_email_composer__ = __webpack_require__(32);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+var HowToUse = (function () {
+    function HowToUse(navCtrl, emailComposer) {
+        this.navCtrl = navCtrl;
+        this.emailComposer = emailComposer;
+    }
+    HowToUse.prototype.noteToSelf = function () {
+        var _this = this;
+        this.emailComposer.isAvailable().then(function (available) {
+            if (available) {
+                var email_1 = {
+                    to: 'info@interaktion.dk',
+                    cc: '',
+                    bcc: [],
+                    attachments: [],
+                    subject: 'How to Use - Interaktion App',
+                    body: '',
+                    isHtml: true
+                };
+                //Now we know we can send
+                _this.emailComposer.open(email_1);
+            }
+        });
+        var email = {
+            to: 'max@mustermann.de',
+            cc: '',
+            bcc: ['john@doe.com', 'jane@doe.com'],
+            attachments: [],
+            subject: 'Test email emne',
+            body: 'Test email brødtekst',
+            isHtml: true
+        };
+        this.emailComposer.open(email);
+    };
+    HowToUse.prototype.bePresentPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__about_the_roles_be_present_be_present__["a" /* BePresent */]);
+    };
+    HowToUse.prototype.coCreatePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__about_the_roles_co_create_co_create__["a" /* CoCreate */]);
+    };
+    HowToUse.prototype.engagePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__about_the_roles_engage_engage__["a" /* Engage */]);
+    };
+    HowToUse.prototype.hostOthersPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__about_the_roles_host_others_host_others__["a" /* HostOthers */]);
+    };
+    HowToUse.prototype.theRolesPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
+    };
+    HowToUse.prototype.selectRolePressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__select_role_select_role__["a" /* SelectRole */]);
+    };
+    HowToUse.prototype.pickACardPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__pick_a_card_pick_a_card__["a" /* PickACard */]);
+    };
+    HowToUse.prototype.backPressed = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
+    };
+    return HowToUse;
+}());
+HowToUse = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-how-to-use',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>How to Use</ion-title>\n  <br>\n  This app is made to help you uncover your true power to hold your ground\n  and not be afraid of change.\n  <br><br>\n  It is thought of as a conscious practise where you can explore\n  and reflect upon questions in four group or roles: Host Yourself,\n  Participate, Host Others, and Co-create.\n  <br><br>\n  <div id="roles_container">\n    <img id="hostyourself" class="role_image_small" (click)="bePresentPressed()" src="assets/roles-small/hostyourself_small.png">\n    <img id="participate" class="role_image_small" (click)="engagePressed()" src="assets/roles-small/participate_small.png">\n    <img id="hostothers" class="role_image_small" (click)="hostOthersPressed()" src="assets/roles-small/hostothers_small.png">\n    <img id="cocreate" class="role_image_small" (click)="coCreatePressed()" src="assets/roles-small/cocreate_small.png">\n  </div>\n  <br><br>\n  You can explore one role at a time or you can choose a card to answer a question\n  you can hold right there, trusting the serendipity.\n  <br><br>\n  Please, explore, learn and enjoy!\n  <br><br><br>\n  <div id="button_container">\n  <button ion-button class="green_button" (click)="selectRolePressed()">Select a Role</button> \n  <button ion-button class="green_button" (click)="pickACardPressed()">Pick a Card</button>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="bitt">\n    <button><ion-icon class="active_footer" name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="theRolesPressed()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/how-to-use/how-to-use.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_email_composer__["a" /* EmailComposer */]])
+], HowToUse);
+
+//# sourceMappingURL=how-to-use.js.map
 
 /***/ }),
 
@@ -557,9 +571,9 @@ webpackEmptyAsyncContext.id = 123;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutTheRoles; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__be_present_be_present__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__co_create_co_create__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__engage_engage__ = __webpack_require__(108);
@@ -639,11 +653,11 @@ webpackEmptyAsyncContext.id = 165;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_role_select_role__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pick_a_card_pick_a_card__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__the_4_fold_path_the_4_fold_path__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__buy_more_questions_buy_more_questions__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__restore_purchase_restore_purchase__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__interaktion_interaktion__ = __webpack_require__(114);
@@ -762,8 +776,8 @@ HomePage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectRoleCard; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_the_roles_about_the_roles__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__select_role__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(32);
@@ -921,9 +935,9 @@ SelectRoleCard = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Card; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pick_a_card_pick_a_card__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_the_roles_about_the_roles__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(32);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1023,15 +1037,15 @@ Card = __decorate([
 
 /***/ }),
 
-/***/ 216:
+/***/ 218:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js_web_animations_min__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js_web_animations_min__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web_animations_js_web_animations_min___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_web_animations_js_web_animations_min__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_module__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_module__ = __webpack_require__(238);
 
 
 
@@ -1040,22 +1054,22 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 236:
+/***/ 238:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(286);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_select_role_select_role__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_pick_a_card_pick_a_card__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_restore_purchase_restore_purchase__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_interaktion_interaktion__ = __webpack_require__(114);
@@ -1069,18 +1083,20 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_select_role_select_role_card_select_role_card__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_http__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_email_composer__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_call_number__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_in_app_browser__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_in_app_purchase__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_call_number__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_in_app_browser__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_in_app_purchase__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_toast__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__ = __webpack_require__(285);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__angular_platform_browser_animations__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_file_path__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__angular_platform_browser_animations__ = __webpack_require__(287);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1140,7 +1156,7 @@ AppModule = __decorate([
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_22__angular_http__["b" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_29__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+            __WEBPACK_IMPORTED_MODULE_30__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */]),
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
@@ -1172,7 +1188,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_25__ionic_native_in_app_browser__["a" /* InAppBrowser */],
             __WEBPACK_IMPORTED_MODULE_26__ionic_native_in_app_purchase__["a" /* InAppPurchase */],
             __WEBPACK_IMPORTED_MODULE_27__ionic_native_toast__["a" /* Toast */],
-            __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__["a" /* File */]
+            __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__["a" /* File */],
+            __WEBPACK_IMPORTED_MODULE_29__ionic_native_file_path__["a" /* FilePath */]
         ]
     })
 ], AppModule);
@@ -1181,20 +1198,20 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 284:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_select_role_select_role__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_pick_a_card_pick_a_card__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_the_4_fold_path_the_4_fold_path__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_buy_more_questions_buy_more_questions__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_restore_purchase_restore_purchase__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_interaktion_interaktion__ = __webpack_require__(114);
@@ -1285,10 +1302,10 @@ MyApp = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectRole; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__select_role_card_select_role_card__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__how_to_use_how_to_use__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__how_to_use_how_to_use__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__about_the_roles_about_the_roles__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_email_composer__ = __webpack_require__(32);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1313,7 +1330,6 @@ var SelectRole = (function () {
         this.emailComposer = emailComposer;
     }
     SelectRole.prototype.rolePressed = function (role) {
-        console.log(role);
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__select_role_card_select_role_card__["a" /* SelectRoleCard */], {
             role: role
         });
@@ -1359,7 +1375,7 @@ var SelectRole = (function () {
 }());
 SelectRole = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-select-role',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/select-role/select-role.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-title text-center>Select a role</ion-title>\n    <br><br>\n    <div id="container">\n      <div id="top_row">\n        <div>\n          <img id="upper_left_arrow" src="assets/arrow.png">\n        </div>\n          <div (click)="rolePressed(\'Host Others\')" class="role_container" >\n          <div class="role_text">Host Others</div>\n          <div class="image_padding">\n          <img class="role_image" src="assets/roles/hostothers.png">\n        </div>\n      </div>\n      <div>\n          <img id="upper_right_arrow" src="assets/arrow.png">\n        </div>\n      </div>\n      <div id ="middle_row">\n          <div (click)="rolePressed(\'Co-Create\')" class="middle_container">\n          <div>Co-Create</div>\n          <div id="left_role" class="image_padding">\n          <img class="role_image" src="assets/roles/cocreate.png">\n          </div>\n        </div>\n          <div (click)="rolePressed(\'Engage\')" class="middle_container">\n          <div>Engage</div>\n          <div id="right_role" class="image_padding">\n          <img class="role_image" src="assets/roles/participate.png">\n          </div>\n        </div>\n      </div>\n      <div id="bottom_row">\n          <div>\n              <img id="lower_left_arrow" src="assets/arrow.png">\n            </div>\n          <div (click)="rolePressed(\'Be Present\')" class="role_container" >\n          <div class="image_padding">\n          <img class="role_image" src="assets/roles/hostyourself.png">\n          </div>\n          <div class="role_text">Be Present</div>\n      </div>\n      <div>\n          <img id="lower_right_arrow" src="assets/arrow.png">\n        </div>\n    </div>\n    </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/select-role/select-role.html"*/
+        selector: 'page-select-role',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/select-role/select-role.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-title text-center>Select a role</ion-title>\n    <br><br>\n    <div id="container">\n      <div id="top_row">\n        <div>\n          <img id="upper_left_arrow" src="assets/arrow.png">\n        </div>\n          <div (click)="rolePressed(\'Host Others\')" class="role_container" >\n            <div class="role_text">Host Others</div>\n            <div class="image_padding">\n              <img class="role_image" src="assets/roles/hostothers.png">\n            </div>\n          </div>\n      <div>\n          <img id="upper_right_arrow" src="assets/arrow.png">\n        </div>\n      </div>\n      <div id ="middle_row">\n          <div (click)="rolePressed(\'Co-Create\')" class="middle_container">\n          <div>Co-Create</div>\n          <div id="left_role" class="image_padding">\n          <img class="role_image" src="assets/roles/cocreate.png">\n          </div>\n        </div>\n          <div (click)="rolePressed(\'Engage\')" class="middle_container">\n          <div>Engage</div>\n          <div id="right_role" class="image_padding">\n          <img class="role_image" src="assets/roles/participate.png">\n          </div>\n        </div>\n      </div>\n      <div id="bottom_row">\n          <div>\n              <img id="lower_left_arrow" src="assets/arrow.png">\n            </div>\n          <div (click)="rolePressed(\'Be Present\')" class="role_container" >\n          <div class="image_padding">\n          <img class="role_image" src="assets/roles/hostyourself.png">\n          </div>\n          <div class="role_text">Be Present</div>\n      </div>\n      <div>\n          <img id="lower_right_arrow" src="assets/arrow.png">\n        </div>\n    </div>\n    </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="noteToSelf()"><ion-icon name="mail"><br><div class="footer_button_text">Note to self</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/select-role/select-role.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_email_composer__["a" /* EmailComposer */]])
 ], SelectRole);
@@ -1374,17 +1390,17 @@ SelectRole = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickACard; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__card_card__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__home_home__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__how_to_use_how_to_use__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_the_roles_about_the_roles__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_toast__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_animations__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_file__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_the_roles_about_the_roles__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_toast__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_animations__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_file__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_file_path__ = __webpack_require__(214);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1405,45 +1421,69 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var PickACard = (function () {
-    function PickACard(navCtrl, navParams, http /*, private platform: Platform*/, toast, file) {
+    function PickACard(navCtrl, navParams, http, toast, file, filePath, platform) {
+        var _this = this;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.http = http; /*, private platform: Platform*/
+        this.http = http;
         this.toast = toast;
         this.file = file;
+        this.filePath = filePath;
+        this.platform = platform;
         this.visibleState = 'visible';
         //You need to subscribe to the observable and pass a callback that processes emitted values
         //this.getIt().subscribe(val => console.log(val[0].role));
         this.cards = [];
-        //this.getCards().subscribe(val => this.populateCards(val));
-        this.getCards();
+        this.getCards().subscribe(function (val) { return _this.populateCards(val); });
+        //this.getCards();
         this.cardsResponse = "";
     }
     PickACard.prototype.getCards = function () {
-        var _this = this;
         var url = 'assets/data/questions.json';
         //if (this.platform.is('cordova') && this.platform.is('android')) {
         //    url = "/android_asset/www/" + url;
         //}
-        /*return this.http.get(url)
+        return this.http.get(url)
+            .map(function (response) {
+            return response.json();
+        });
+        //this.checkFile();
+        /*console.log(x);
+        this.http.get(url)
         .map((response) => {
           return response.json();
-        });*/
-        var x = this.http.get(url).subscribe(function (val) { return console.log(val); });
-        console.log(x);
-        this.http.get(url)
-            .map(function (response) {
-            return response.json();
-        }).subscribe(function (response) { return _this.cardsCallback(response, 1); }, function (err) { return console.log("file was not found"); });
-        this.http.get(url + "1")
-            .map(function (response) {
-            return response.json();
-        }).subscribe(function (response) { return _this.cardsCallback(response, 2); }, function (err) { return console.log("file was not found"); });
-        this.http.get(url + "1")
-            .map(function (response) {
-            return response.json();
-        }).subscribe(function (response) { return _this.cardsCallback(response, 3); }, function (err) { return _this.populateCards(_this.cardsResponse); });
+        }).subscribe(response => this.cardsCallback(response, 1), err => console.log("file was not found"));
+        this.http.get(url+"1")
+        .map((response) => {
+          return response.json();
+        }).subscribe(response => this.cardsCallback(response, 2), err => console.log("file was not found"));
+        this.http.get(url+"1")
+        .map((response) => {
+          return response.json();
+        }).subscribe(response => this.cardsCallback(response, 3), err => this.populateCards(this.cardsResponse));*/
+    };
+    PickACard.prototype.checkFile = function () {
+        var _this = this;
+        this.file.checkFile('assets/data/', 'questions.json').then(function (val) { return _this.toast.show("True ", '5000', 'center').subscribe(function (toast) {
+            console.log(toast);
+        }); });
+        /*this.file.resolveLocalFilesystemUrl('assets/data/questions.json').then(value =>
+        this.toast.show("worked? : " , '5000', 'center').subscribe(
+          toast => {
+            console.log(toast);
+          }
+          )).catch((val) => this.toast.show("error? " + this.file.tempDirectory, '5000', 'center').subscribe(
+            toast => {
+              console.log(toast);
+            })
+            );*/
+        /*}).catch(err => this.toast.show("error? Not ready? " + err, '5000', 'center').subscribe(
+          toast => {
+            console.log(toast);
+          })
+          );*/
     };
     PickACard.prototype.cardsCallback = function (response, call) {
         this.cardsResponse += response;
@@ -1469,11 +1509,9 @@ var PickACard = (function () {
             this.cards[j] = temp;
         }
         console.log('done');
-        /*this.toast.show('Cards have been shuffled', '5000', 'center').subscribe(
-          toast => {
+        this.toast.show('Cards have been shuffled', '5000', 'center').subscribe(function (toast) {
             console.log(toast);
-          }
-        );*/
+        });
         this.visibleState = (this.visibleState == 'visible') ? 'invisible' : 'visible';
     };
     PickACard.prototype.cardPressed = function (card) {
@@ -1483,10 +1521,11 @@ var PickACard = (function () {
         });
     };
     PickACard.prototype.howToUsePressed = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__how_to_use_how_to_use__["a" /* HowToUse */]);
+        this.checkFile();
+        //this.navCtrl.setRoot(HowToUse);
     };
     PickACard.prototype.openAboutTheRoles = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_6__about_the_roles_about_the_roles__["a" /* AboutTheRoles */]);
     };
     PickACard.prototype.backPressed = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__home_home__["a" /* HomePage */]);
@@ -1515,28 +1554,27 @@ var PickACard = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('scrollElement'),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Scroll */])
 ], PickACard.prototype, "scrollElement", void 0);
 PickACard = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-pick-a-card',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="pick_a_card_style">\n  <div id="aligner">\n    <h3>Pick a card</h3>\n  </div>\n  <ion-scroll [@myvisibility]="visibleState" scrollX="true">\n  <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">\n  <div class="card-title">The 4 Fold Practice</div>\n  <img class="card-image" src="assets/bagside.jpeg">\n  </div>\n  </ion-scroll>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="shuffleCards()"><ion-icon name="shuffle"><br><div class="footer_button_text">Shuffle Cards</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/,
+        selector: 'page-pick-a-card',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="pick_a_card_style">\n  <div id="aligner">\n    <h3>Pick a card</h3>\n  </div>\n  <ion-scroll scrollX="true">\n  <div class="scroll-item" *ngFor="let card of cards" (click)="cardPressed(card)">\n  <div class="card-title">The 4 Fold Practice</div>\n  <img class="card-image" src="assets/bagside.jpeg">\n  </div>\n  </ion-scroll>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="shuffleCards()"><ion-icon name="shuffle"><br><div class="footer_button_text">Shuffle Cards</div></ion-icon></button>\n    <button (click)="openAboutTheRoles()"><ion-icon name="contacts"><br><div class="footer_button_text">The Roles</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>\n  </div>\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/pick-a-card/pick-a-card.html"*/,
         animations: [
-            Object(__WEBPACK_IMPORTED_MODULE_9__angular_animations__["h" /* trigger */])('myvisibility', [
-                Object(__WEBPACK_IMPORTED_MODULE_9__angular_animations__["e" /* state */])('visible', Object(__WEBPACK_IMPORTED_MODULE_9__angular_animations__["f" /* style */])({
+            Object(__WEBPACK_IMPORTED_MODULE_8__angular_animations__["h" /* trigger */])('myvisibility', [
+                Object(__WEBPACK_IMPORTED_MODULE_8__angular_animations__["e" /* state */])('visible', Object(__WEBPACK_IMPORTED_MODULE_8__angular_animations__["f" /* style */])({
                     opacity: 1,
                 })),
-                Object(__WEBPACK_IMPORTED_MODULE_9__angular_animations__["e" /* state */])('invisible', Object(__WEBPACK_IMPORTED_MODULE_9__angular_animations__["f" /* style */])({
+                Object(__WEBPACK_IMPORTED_MODULE_8__angular_animations__["e" /* state */])('invisible', Object(__WEBPACK_IMPORTED_MODULE_8__angular_animations__["f" /* style */])({
                     class: 'none',
                     opacity: 1
                 })),
-                Object(__WEBPACK_IMPORTED_MODULE_9__angular_animations__["g" /* transition */])('* => *', Object(__WEBPACK_IMPORTED_MODULE_9__angular_animations__["c" /* animate */])('.5s'))
+                Object(__WEBPACK_IMPORTED_MODULE_8__angular_animations__["g" /* transition */])('* => *', Object(__WEBPACK_IMPORTED_MODULE_8__angular_animations__["c" /* animate */])('.5s'))
             ])
         ]
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/ !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] /*, private platform: Platform*/) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_8__ionic_native_toast__["a" /* Toast */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__ionic_native_toast__["a" /* Toast */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_10__ionic_native_file__["a" /* File */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__ionic_native_file__["a" /* File */]) === "function" && _f || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_toast__["a" /* Toast */], __WEBPACK_IMPORTED_MODULE_9__ionic_native_file__["a" /* File */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_file_path__["a" /* FilePath */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]])
 ], PickACard);
 
-var _a, _b, _c, _d, _e, _f;
 //# sourceMappingURL=pick-a-card.js.map
 
 /***/ }),
@@ -1547,12 +1585,12 @@ var _a, _b, _c, _d, _e, _f;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Contact; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__how_to_use_how_to_use__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_browser__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_browser__ = __webpack_require__(217);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1598,9 +1636,10 @@ var Contact = (function () {
     };
     Contact.prototype.goToWebsite = function () {
         var browser = this.iab.create('https://interaktion.dk/');
+        browser.executeScript();
     };
     Contact.prototype.dialNumber = function () {
-        this.callNumber.callNumber("30248428", false)
+        this.callNumber.callNumber("30248428", true)
             .then(function () { return console.log('Launched dialer!'); })
             .catch(function () { return console.log('Error launching dialer'); });
     };
@@ -1611,12 +1650,13 @@ Contact = __decorate([
         selector: 'page-contact',template:/*ion-inline-start:"/home/philip/Desktop/Projects/Interaktion/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <div id="header_container">\n    <img src="assets/logo.png">\n    <ion-title>The 4 Fold Practice</ion-title>\n    <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n   </button>\n  </div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-title text-center>Contact us</ion-title>\n  <div>\n  <br><br>\n  Are you curious on more or do you face challenges at work?\n  <br><br>\n  We are here to help you and your organization going from strategy to great and sustainable solutions with great results.\n  <br>\n  The way we do it, is through hosting conversations that matter for everyone.\n  <br><br>\n  Please do not hesitate to contact us. We look forward to hearing from you.\n  <br><br><br><br>\n  </div>\n  \n  <div id="contact_container">\n    <div>\n    Call us <br><br>\n    E-mail us <br><br>\n    Visit us\n  </div>\n    <div id="contact_info">\n      <div (click)="dialNumber()">+45 30 24 84 28</div>\n      <br>\n      <div (click)="emailInteraktion()">info@interaktion.dk</div>\n      <br>\n      <a href="http://www.interaktion.dk">www.interaktion.dk</a>\n    </div>\n  </div>\n</ion-content>\n\n<ion-footer>\n  <ion-toolbar>\n    <div id="footer_container">\n    <button (click)="howToUsePressed()"><ion-icon name="information-circle"><br><div class="footer_button_text">How to use</div></ion-icon></button>\n    <button (click)="backPressed()"><ion-icon id="back_button_icon" name="share-alt"><br><div class="footer_button_text">Back</div></ion-icon></button>    \n  </div>\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/home/philip/Desktop/Projects/Interaktion/src/pages/contact/contact.html"*/,
         providers: [__WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */]]
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__["a" /* EmailComposer */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__["a" /* EmailComposer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__ionic_native_email_composer__["a" /* EmailComposer */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_call_number__["a" /* CallNumber */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_browser__["a" /* InAppBrowser */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__ionic_native_in_app_browser__["a" /* InAppBrowser */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */]) === "function" && _e || Object])
 ], Contact);
 
+var _a, _b, _c, _d, _e;
 //# sourceMappingURL=contact.js.map
 
 /***/ })
 
-},[216]);
+},[218]);
 //# sourceMappingURL=main.js.map

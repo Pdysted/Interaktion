@@ -73,16 +73,16 @@ ion-scroll[scrollX] {
   animation-timing-function: linear;
 }
 
-@-webkit-keyframes slideIn {
+@keyframes slideIn {
   0% {
-    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
   }
  
   50% {
-    -webkit-transform: translate3d(50,0,0);
+    transform: translate3d(50,0,0);
   }
  
   100% {
-    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
   }
 }

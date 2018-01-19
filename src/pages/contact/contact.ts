@@ -35,10 +35,6 @@ export class Contact {
       cc: '',
       bcc: [],
       attachments: [
-        //'file://img/logo.png',
-        //'res://icon.png',
-        //'base64:icon.png//iVBORw0KGgoAAAANSUhEUg...',
-        //'file://README.pdf'
       ],
       subject: 'Interaktion app',
       body: '',
@@ -52,7 +48,7 @@ export class Contact {
   }
 
   dialNumber() {
-  this.callNumber.callNumber("30248428", false)
+  this.callNumber.callNumber("30248428", true)
   .then(() => console.log('Launched dialer!'))
   .catch(() => console.log('Error launching dialer'));
   }
